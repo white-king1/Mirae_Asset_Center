@@ -188,14 +188,14 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   background-color: #242424;
-  margin-top: 22%;
+  margin-top: 15%;
   width: 1550px;
 }
 
 .secondcontainer {
   position: absolute;
   top: 80px;
-  left: 20%;
+  left: 12%;
   height: auto;
   width: auto;
   border: 1px solid red;
