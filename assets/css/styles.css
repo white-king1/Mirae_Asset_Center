@@ -1,0 +1,226 @@
+/* styles.css */
+
+/* Set background image for the whole body */
+
+/* body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background-image: url("../pics.png");
+  width: 100vw;
+  box-sizing: border-box;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: #172f4a; /* Add this line */
+  /* background-image: url("../pics.png"); */
+  /* background-position: center; */
+  background-size: contain;
+  overflow-x: hidden;
+}
+
+/* Header styling starts here */
+
+/* Style the navbar */
+nav {
+  border-top: none;
+  border-bottom: none;
+}
+nav ul {
+  list-style: none;
+  border: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+/* nav {
+  background-image: url("../pics.png");
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  width: 1550px;
+  z-index: 1000;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav ul .logo {
+  margin-right: auto;
+}
+
+nav ul li {
+  margin-top: 3px;
+}
+
+nav ul .world-image img {
+  height: 40px;
+  width: auto;
+  margin-left: 20px;
+}
+
+nav ul .world-image a {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+} */
+/* Header styling ends here */
+
+/* First Section styling starts here */
+
+.firstdiv {
+  height: 500px;
+}
+
+/* .image-container {
+  position: relative;
+  display: inline-block;
+} */
+
+/* .image-container img {
+  width: 100%;
+  height: auto;
+} */
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.text-overlaytwo {
+  position: absolute;
+  top: 65%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  width: 800px;
+}
+
+.text-overlaythree {
+  position: absolute;
+  top: 90%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  width: 800px;
+}
+
+/* first line write up */
+.the {
+  vertical-align: middle;
+  line-height: 0.7;
+  margin: 0;
+  font-size: 6rem;
+  height: 80px;
+  width: 200px;
+}
+
+.buildingtext {
+  vertical-align: middle;
+  font-size: 5rem;
+  height: 80px;
+  width: 200px;
+}
+
+.writeupimage {
+  line-height: 1;
+  vertical-align: middle;
+  height: 70px !important;
+  width: 90px !important;
+}
+
+/* First Section styling ends here */
+
+/* Second section starts here */
+.seconddiv {
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #242424;
+  margin-top: 22%;
+  width: 1550px;
+}
+
+.secondcontainer {
+  position: absolute;
+  top: 80px;
+  left: 20%;
+  height: auto;
+  width: auto;
+  border: 1px solid red;
+}
+
+.firtwriteup {
+  color: #fff;
+}
+.secondwriteup {
+  color: #fff;
+}
+
+.thirdcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.picslinetwo {
+  height: 150px;
+  width: 300px;
+}
+
+.subtwo {
+  display: flex;
+  flex-direction: column;
+}
+/* Second section ends here */
