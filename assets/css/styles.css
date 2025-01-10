@@ -15,7 +15,7 @@
 } */
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: Arial, sans-serif;
   height: 100vh;
@@ -25,6 +25,8 @@ body {
   /* background-position: center; */
   background-size: contain;
   overflow-x: hidden;
+  box-sizing: border-box;
+
 }
 
 /* Header styling starts here */
@@ -33,6 +35,8 @@ body {
 nav {
   border-top: none;
   border-bottom: none;
+  background-color: #172f4a; /* Add this line */
+
 }
 nav ul {
   list-style: none;
@@ -155,6 +159,27 @@ nav ul li a:hover {
   width: 800px;
 }
 
+.text-overlaythreea {
+  position: absolute;
+  top: 100%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  width: 800px;
+}
+
+.horizontal_line{
+  position: absolute;
+  top: 92%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
 /* first line write up */
 .the {
   vertical-align: middle;
@@ -165,11 +190,38 @@ nav ul li a:hover {
   width: 200px;
 }
 
+.theenvo{
+  vertical-align: middle;
+  line-height: 0.7;
+  margin: 0;
+  font-size: 3rem;
+  height: 80px;
+  width: 100px;
+}
+
+.theenvonew{
+  vertical-align: middle;
+  line-height: 0.7;
+  margin: 0;
+  font-size: 3rem;
+  height: 80px;
+  width: 500px;
+}
+
 .buildingtext {
   vertical-align: middle;
   font-size: 5rem;
   height: 80px;
   width: 200px;
+
+}
+
+.wouldimagine {
+  vertical-align: middle;
+  font-size: 4rem;
+  height: 80px;
+  width: 710px;
+  margin-top: -6%;
 }
 
 .writeupimage {
@@ -179,16 +231,43 @@ nav ul li a:hover {
   width: 90px !important;
 }
 
+.writeupimagetwo{
+  line-height: 1;
+  vertical-align: middle;
+  height: 60px !important;
+  width: 70px !important;
+  margin-top: -3%;
+}
+
 /* First Section styling ends here */
 
 /* Second section starts here */
 .seconddiv {
-  height: 500px;
+  height: 650px;
   position: relative;
   display: flex;
   flex-direction: column;
   background-color: #242424;
-  margin-top: 15%;
+  margin-top: 12%;
+  width: 1550px;
+}
+
+.forthdiv{
+  height: 650px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #242424;
+  margin-top: 10%;
+  width: 1550px;
+}
+
+.fifthdiv{
+  height: 650px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ECEFF1;
   width: 1550px;
 }
 
@@ -198,11 +277,13 @@ nav ul li a:hover {
   left: 12%;
   height: auto;
   width: auto;
-  border: 1px solid red;
 }
 
 .firtwriteup {
   color: #fff;
+}
+.firtwriteupF{
+  color:#2C2C2C;
 }
 .secondwriteup {
   color: #fff;
@@ -219,8 +300,261 @@ nav ul li a:hover {
   width: 300px;
 }
 
+.picslinetwoB {
+  height: 150px;
+  width: 300px;
+ 
+}
+
 .subtwo {
   display: flex;
   flex-direction: column;
 }
 /* Second section ends here */
+
+/* Carousel styling starts here */
+/* .carousel {
+  position: relative;
+  width: 800px; 
+  height: 600px; 
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+}
+
+.carousel-prev, .carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.carousel-prev {
+  left: 0;
+}
+
+.carousel-next {
+  right: 0;
+} */
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.slider-dimensions {
+  /* width: min(100vw, 720px); */
+  width: 100vw;
+  aspect-ratio: 3 / 2;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  background-color: lightgray;
+}
+
+.slider {
+  position: absolute;
+  display: flex;
+  transform: translateX(-0%);
+  transition: transform 1s;
+}
+
+.slider > div {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-container {
+  position: absolute;
+  padding: 0 20px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: radial-gradient(transparent, rgba(0,0,0,.3));
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+.nav-container:hover {
+  opacity: 1;
+}
+
+
+.index-container {
+  align-self: flex-end;
+  display: flex;
+  gap: 30px;
+}
+
+.index-container > button {
+  width: 32px;        
+  height: 5px;        
+  border: none;
+  border-radius: 5px;  
+  background-color: rgba(255,255,255,.3);
+  transition: background-color .2s;
+  cursor: pointer;
+}
+
+
+.index-container > button:hover {
+  background-color: rgba(255,255,255,.7);
+}
+
+button[data-index-change] {
+  font-size: 40px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .nav-container {
+    padding: 0 0 10px;
+  }
+  
+  .index-container {
+    gap: 20px;
+  }
+}
+
+.view-more-button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 4%;
+  margin-left: 14%;
+  border-radius: 4px;
+}
+
+.view-more-button:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+/* Carousel styling ends here */
+
+/* Another Carousel starts here */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background: #fed5c8;
+}
+
+.list {
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+
+.list li {
+  list-style-type: none;
+  
+  width: 200px;
+  height: 200px;
+  opacity: .25;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  border-radius: 2px;
+  background: #9C89B8;
+  transition: transform 1s, opacity 1s;
+}
+
+.list .act {
+  opacity: 1;
+}
+
+.list .prev,
+.list .next {
+  cursor: pointer;
+}
+
+.list .prev {
+  transform: translateX(-220px) scale(.85);
+}
+
+.list .next {
+  transform: translateX(220px) scale(.85);
+}
+
+.list .hide {
+  transform: translateX(-420px) scale(.85);
+}
+
+.list .new-next {
+  transform: translateX(420px) scale(.85);
+}
+
+.list .hide,
+.list .new-next {
+  opacity: 0;
+  transition: opacity .5s, transform .5s;
+}
+
+.swipe {
+  width: 270px;
+  height: 200px;
+  position: absolute;
+  background-color: green;
+  border-radius: 2px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+}
+
+/* Another carousel ends here */

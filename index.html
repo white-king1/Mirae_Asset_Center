@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MIRAE ASSET CENTER</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -37,7 +38,7 @@
           list-style: none;
         "
       >
-        <div class="logo" style="padding-left: 10%;">
+        <div class="logo" style="padding-left: 10%">
           <img src="assets/logo.png" alt="Website Logo" />
           <!-- Replace with the path to your logo -->
         </div>
@@ -71,15 +72,19 @@
         </div>
 
         <li class="world-image">
-          <a href="#world-link" >
+          <a href="#world-link">
             <!-- Replace #world-link with your desired URL -->
-            <img src="assets/world.png" alt="World Image" style="margin-left: -80%;border: 1px solid red;"/>
+            <img
+              src="assets/world.png"
+              alt="World Image"
+              style="margin-left: -80%"
+            />
           </a>
         </li>
       </ul>
     </nav>
 
-    <!-- Content Section (Optional, can add more content here) -->
+    <!-- Content Section  -->
     <div
       style="
         display: flex;
@@ -110,35 +115,17 @@
         <img src="assets/pics.png" alt="image" style="width: 1350px" />
       </div>
     </div>
-    <section class="firstdiv" style="display: none">
-      <!-- <img src="assets/pics.png" alt="Image" /> -->
-
-      <div class="text-overlay">
-        <h1 class="the">THE</h1>
-        <img class="writeupimage" src="assets/1st.png" alt="Image" />
-      </div>
-      <div class="text-overlaytwo">
-        <h1 class="buildingtext">BUILDING</h1>
-      </div>
-
-      <div class="text-overlaythree">
-        <p style="font-weight: bold; font-size: 1.5rem">
-          최고의 공간을 경험하세요
-        </p>
-        <p>국내를 넘어 세계의 무대를 준비하는 여러분들과 함께 합니다.</p>
-      </div>
-    </section>
 
     <section class="seconddiv">
       <div class="secondcontainer">
-        <h1 class="firtwriteup">Convenience</h1>
+        <h1 class="firtwriteupF">Convenience</h1>
         <p class="secondwriteup">
           미래에셋센터원에서 경험하는
           <span style="color: #f58220">특별한 서비스</span>
         </p>
 
         <div class="thirdcontainer">
-          <div class="subone">
+          <div class="subone" style="margin-top: 80px">
             <div class="container">
               <img
                 class="picslinetwo"
@@ -147,32 +134,409 @@
               />
             </div>
             <h1 style="color: #f58220">KF GALLERY</h1>
-            <p style="color: #7d7d7d">
+            <p style="color: #7d7d7d; font-size: 11px">
               국내외 방문객에게 전시회, 문화 행사, 교육 프로그램 등 개최
+              <br />
+              <br />
+              국제 교류를 촉진하는 다양한 전시와 행사에 참여해보세요.
             </p>
+            <div style="display: flex; flex-direction: row; margin-top: 15px">
+              <div
+                style="height: 3px; background-color: #f58220; width: 180px"
+              ></div>
+              <div
+                style="height: 3px; background-color: #575757; width: 120px"
+              ></div>
+            </div>
           </div>
-          <div class="subtwo">
+          <div class="subtwo" style="margin-top: 10px">
             <div class="container">
               <img
                 class="picslinetwo"
-                src="assets/frameone (1).png"
+                src="assets/frameone (2).png"
                 alt="image"
               />
             </div>
             <h1 style="color: #fff">센터원 Wellness</h1>
+            <p style="color: #7d7d7d; font-size: 11px">
+              피트니스, 골프GDR+, 필라테스, GX,스피닝, 사우나, PT(퍼스널
+              <br /><br />
+              트레이닝) 등 운영 <br /><br />
+              바쁜 일상과 업무에서 잠시 휴식을 취해보세요.
+            </p>
+            <div style="display: flex; flex-direction: row; margin-top: 15px">
+              <!-- <div style="height: 3px; background-color: #f58220; width: 180px"></div> -->
+              <div
+                style="height: 3px; background-color: #575757; width: 300px"
+              ></div>
+            </div>
           </div>
-          <div class="subthree">
+          <div class="subthree" style="margin-top: -10px">
             <div class="container">
               <img
                 class="picslinetwo"
-                src="assets/frameone (1).png"
+                src="assets/frameone (3).png"
                 alt="image"
               />
             </div>
             <h1 style="color: #fff">SPARKPLUS</h1>
+            <p style="color: #7d7d7d; font-size: 11px">
+              원하는 인원만큼 사용할 수 있는 맞춤형 오피스 <br /><br />
+              일에만 집중할 수 있는 완벽한 공유 오피스를 만나보세요.
+            </p>
+            <div style="display: flex; flex-direction: row; margin-top: 15px">
+              <!-- <div style="height: 3px; background-color: #f58220; width: 180px"></div> -->
+              <div
+                style="height: 3px; background-color: #575757; width: 300px"
+              ></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Carousel slider starts here -->
+    <main>
+      <div class="slider-container slider-dimensions">
+        <div class="slider">
+          <!-- FIRST SLIDER -->
+          <div data-img-url="assets/sliderone.jpeg" class="slider-dimensions">
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 500px;
+                width: 1500px;
+                z-index: 9999;
+                position: relative;
+                padding-top: 14%;
+              "
+            >
+              <div class="text-overlay">
+                <h1 class="theenvo">THE</h1>
+                <img class="writeupimagetwo" src="assets/1st.png" alt="Image" />
+                <h1 class="theenvonew">Environment you</h1>
+              </div>
+              <div class="text-overlaytwo">
+                <h1 class="wouldimagine">Would Imagine</h1>
+              </div>
+
+              <div class="horizontal_line">
+                <div
+                  style="width: 300px; height: 3px; background-color: #fff"
+                ></div>
+
+                <div
+                  style="width: 390px; height: 3px; background-color: #bebebe"
+                ></div>
+              </div>
+
+              <div class="text-overlaythreea">
+                <p style="font-size: 12px; font-weight: bolder">
+                  서울 청계천은 자연 그대로의 휴식과 재충전 공간이며, 점심시간과
+                  퇴근길에 만나는 청계천의 여유로움은
+                  <br />
+                  CENTER1 입주자 및 이용객이 누릴 수 있는 특권입니다.
+                  <br />
+                  이용자를 위한 감성적인 요소뿐만 아니라, 국내 최고 수준의
+                  친환경 기준을 실천하여 국내외에서 친환경 건축물로
+                  인증받았습니다.
+                </p>
+              </div>
+            </div>
+            <button class="view-more-button">View More</button>
+          </div>
+          <!-- SECOND SLIDER -->
+          <div data-img-url="assets/slidertwo.jpeg" class="slider-dimensions">
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 500px;
+                width: 1500px;
+                z-index: 9999;
+                position: relative;
+                padding-top: 14%;
+              "
+            >
+              <div class="text-overlay">
+                <h1 class="theenvo">THE</h1>
+                <img class="writeupimagetwo" src="assets/1st.png" alt="Image" />
+                <h1 class="theenvonew">Building you</h1>
+              </div>
+              <div class="text-overlaytwo">
+                <h1 class="wouldimagine">Would Prefer</h1>
+              </div>
+
+              <div class="horizontal_line">
+                <div
+                  style="width: 300px; height: 3px; background-color: #fff"
+                ></div>
+
+                <div
+                  style="width: 390px; height: 3px; background-color: #bebebe"
+                ></div>
+              </div>
+
+              <div class="text-overlaythreea">
+                <p style="font-size: 12px; font-weight: bolder">
+                  Center1은 약 170,000m²의 건축 연면적으로 서울 도심 최대 규모의
+                  빌딩입니다.
+                  <br />
+                  안정적 구조, 효율적 공간설계, 친환경 건축, 반영구적 자재,
+                  최첨단 기술을 바탕으로 시간이 지나도 그 가치가 높아질
+                  것입니다.
+                  <br />
+                  또한 편리한 접근성, 빌딩 앞 공원, 개방된 아트리움 공간 등을
+                  통해 대중과 소통하는 새로운 시대 가치를 담고 있습니다.
+                </p>
+              </div>
+            </div>
+            <button class="view-more-button">View More</button>
+          </div>
+          <!-- THIRD SLIDER -->
+          <div data-img-url="assets/sliderthree.jpeg" class="slider-dimensions">
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 500px;
+                width: 1500px;
+                z-index: 9999;
+                position: relative;
+                padding-top: 14%;
+              "
+            >
+              <div class="text-overlay">
+                <h1 class="theenvo">THE</h1>
+                <img class="writeupimagetwo" src="assets/1st.png" alt="Image" />
+                <h1 class="theenvonew">Impression you</h1>
+              </div>
+              <div class="text-overlaytwo">
+                <h1 class="wouldimagine">Would Have</h1>
+              </div>
+
+              <div class="horizontal_line">
+                <div
+                  style="width: 300px; height: 3px; background-color: #fff"
+                ></div>
+
+                <div
+                  style="width: 390px; height: 3px; background-color: #bebebe"
+                ></div>
+              </div>
+
+              <div class="text-overlaythreea">
+                <p style="font-size: 12px; font-weight: bolder">
+                  Center1의 건축 모티브는 음과 양 (Yin & Yang)입니다. 하나의
+                  매스에서 분리된 두 동은 음각과 양각 형태로 마주 보고 있습니다.
+                  <br />
+                  외부 마감재는 자연과 조화를 이루며 주변 건물들과 차별화된
+                  자재를 사용하였고,
+                  <br />
+                  알루미늄 환기창은 외기를 도입하면서도 개폐 시 외관 변화가
+                  없도록 세심하게 설계되었습니다.
+                </p>
+              </div>
+            </div>
+            <button class="view-more-button">View More</button>
+          </div>
+          <!-- FOURTH SLIDER -->
+          <div data-img-url="assets/sliderfour.jpeg" class="slider-dimensions">
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 500px;
+                width: 1500px;
+                z-index: 9999;
+                position: relative;
+                padding-top: 14%;
+              "
+            >
+              <div class="text-overlay">
+                <h1 class="theenvo">THE</h1>
+                <img class="writeupimagetwo" src="assets/1st.png" alt="Image" />
+                <h1 class="theenvonew">Service you would</h1>
+              </div>
+              <div class="text-overlaytwo">
+                <h1 class="wouldimagine">experince</h1>
+              </div>
+
+              <div class="horizontal_line">
+                <div
+                  style="width: 300px; height: 3px; background-color: #fff"
+                ></div>
+
+                <div
+                  style="width: 390px; height: 3px; background-color: #bebebe"
+                ></div>
+              </div>
+
+              <div class="text-overlaythreea">
+                <p style="font-size: 12px; font-weight: bolder">
+                  Center1은 입주사들을 위한 철저한 보안 관리와 사고 예방을 위한
+                  통합 시스템을 도입하여,
+                  <br />
+                  보안과 경비 현황을 한 곳에서 효과적으로 관리합니다.
+                  <br />
+                  아트리움 2층 로비에서는 방문객 출입을 관리하며, 최첨단 보안
+                  시설을 통해 임차인들에게 높은 수준의 보안 서비스를 제공합니다.
+                  <br />
+                  또한, 입주사를 위한 차별화된 서비스를 제공하며, 입주사와 외부
+                  이용객 모두가 이용할 수 있는 다양한 편의 시설을 갖추고
+                  있습니다.
+                </p>
+              </div>
+            </div>
+            <button class="view-more-button">View More</button>
+          </div>
+        </div>
+        <div class="nav-container slider-dimensions">
+          <button data-index-change="-1">&lt;</button>
+          <div class="index-container">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+          </div>
+          <button data-index-change="1">&gt;</button>
+        </div>
+      </div>
+    </main>
+    <!-- Carousel slider ends here -->
+    <section class="forthdiv">
+      <div class="secondcontainer">
+        <h1 class="firtwriteup">ONLY CENTER</h1>
+        <p class="secondwriteup">
+          미래에셋센터원에서만 누리는
+          <span style="color: #f58220">특별한 혜택</span>
+        </p>
+
+        <div class="thirdcontainer">
+          <div class="subone" style="margin-top: 60px">
+            <div class="container">
+              <img
+                class="picslinetwo"
+                src="assets/Frame 1261159181 (2k).png"
+                alt="image"
+              />
+            </div>
+            <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
+              프라임 서비스
+            </h1>
+            <p style="color: #7d7d7d; font-size: 11px">
+              임산부 휴게실/수유실 운영, 세차 서비스, 우편 배달 서비스 등
+              <br />
+              입주사 임직원을 위한 차별화된 서비스를 제공합니다.
+            </p>
+            
+          </div>
+          <div class="subtwo" style="margin-top: 80px">
+            <div class="container">
+              <img
+                class="picslinetwo"
+                src="assets/Frame 1261159181 (3j).png"
+                alt="image"
+              />
+            </div>
+            <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
+              E-pit 전기차 충전소</h1>
+            <p style="color: #7d7d7d; font-size: 11px">
+              미래에셋센터원 주차장에는 전기차 이용자들을 위해
+              <br />
+              일반 충전소 외에도 E-pit 전기차 충전소가 마련되어 있습니다.
+            </p>
+           
+          </div>
+          <div class="subthree" style="margin-top: 80px">
+            <div class="container">
+              <img
+                class="picslinetwo"
+                src="assets/Frame 1261159181 (4i).png"
+                alt="image"
+              />
+            </div>
+            <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
+              주차요금 할인</h1>
+            <p style="color: #7d7d7d; font-size: 11px">
+              오피스,에비뉴 방문시 주차할인 혜택을 드리며 주말에는
+              <br />
+              최대 8천원으로 부담없이 미래에셋센터원을 즐길 수 있습니다.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fifthdiv">
+      <div class="secondcontainer">
+        <h1 class="firtwriteupF">지금 살펴봐야할 이벤트</h1>
+        <p class="secondwriteup">
+          미래에셋센터원에서만 누리는
+          <span style="color: #f58220">특별한 혜택</span>
+        </p>
+
+        <div class="thirdcontainer">
+          <div class="subone" style="margin-top: 60px">
+            <div class="container">
+              <img
+                class="picslinetwo"
+                src="assets/Frame 1261159181 (2k).png"
+                alt="image"
+              />
+            </div>
+            <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
+              프라임 서비스
+            </h1>
+            <p style="color: #7d7d7d; font-size: 11px">
+              임산부 휴게실/수유실 운영, 세차 서비스, 우편 배달 서비스 등
+              <br />
+              입주사 임직원을 위한 차별화된 서비스를 제공합니다.
+            </p>
+            
+          </div>
+          <div class="subtwo" style="margin-top: 80px">
+            <div class="container">
+              <img
+                class="picslinetwo"
+                src="assets/Frame 1261159181 (3j).png"
+                alt="image"
+              />
+            </div>
+            <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
+              E-pit 전기차 충전소</h1>
+            <p style="color: #7d7d7d; font-size: 11px">
+              미래에셋센터원 주차장에는 전기차 이용자들을 위해
+              <br />
+              일반 충전소 외에도 E-pit 전기차 충전소가 마련되어 있습니다.
+            </p>
+           
+          </div>
+          <div class="subthree" style="margin-top: 80px">
+            <div class="container">
+              <img
+                class="picslinetwo"
+                src="assets/Frame 1261159181 (4i).png"
+                alt="image"
+              />
+            </div>
+            <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
+              주차요금 할인</h1>
+            <p style="color: #7d7d7d; font-size: 11px">
+              오피스,에비뉴 방문시 주차할인 혜택을 드리며 주말에는
+              <br />
+              최대 8천원으로 부담없이 미래에셋센터원을 즐길 수 있습니다.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
