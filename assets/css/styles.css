@@ -26,7 +26,6 @@ body {
   background-size: contain;
   overflow-x: hidden;
   box-sizing: border-box;
-
 }
 
 /* Header styling starts here */
@@ -36,7 +35,6 @@ nav {
   border-top: none;
   border-bottom: none;
   background-color: #172f4a; /* Add this line */
-
 }
 nav ul {
   list-style: none;
@@ -169,7 +167,7 @@ nav ul li a:hover {
   width: 800px;
 }
 
-.horizontal_line{
+.horizontal_line {
   position: absolute;
   top: 92%;
   left: 39%;
@@ -190,7 +188,7 @@ nav ul li a:hover {
   width: 200px;
 }
 
-.theenvo{
+.theenvo {
   vertical-align: middle;
   line-height: 0.7;
   margin: 0;
@@ -199,7 +197,7 @@ nav ul li a:hover {
   width: 100px;
 }
 
-.theenvonew{
+.theenvonew {
   vertical-align: middle;
   line-height: 0.7;
   margin: 0;
@@ -213,7 +211,6 @@ nav ul li a:hover {
   font-size: 5rem;
   height: 80px;
   width: 200px;
-
 }
 
 .wouldimagine {
@@ -231,7 +228,7 @@ nav ul li a:hover {
   width: 90px !important;
 }
 
-.writeupimagetwo{
+.writeupimagetwo {
   line-height: 1;
   vertical-align: middle;
   height: 60px !important;
@@ -243,7 +240,7 @@ nav ul li a:hover {
 
 /* Second section starts here */
 .seconddiv {
-  height: 650px;
+  height: 800px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -252,7 +249,7 @@ nav ul li a:hover {
   width: 1550px;
 }
 
-.forthdiv{
+.forthdiv {
   height: 650px;
   position: relative;
   display: flex;
@@ -262,12 +259,12 @@ nav ul li a:hover {
   width: 1550px;
 }
 
-.fifthdiv{
-  height: 650px;
+.fifthdiv {
+  height: 800px;
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #ECEFF1;
+  background-color: #eceff1;
   width: 1550px;
 }
 
@@ -282,8 +279,8 @@ nav ul li a:hover {
 .firtwriteup {
   color: #fff;
 }
-.firtwriteupF{
-  color:#2C2C2C;
+.firtwriteupF {
+  color: #2c2c2c;
 }
 .secondwriteup {
   color: #fff;
@@ -295,15 +292,22 @@ nav ul li a:hover {
   gap: 30px;
 }
 
+.thirdcontainerb {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  /* border: 5px solid black; */
+  width: 1155px;
+}
+
 .picslinetwo {
-  height: 150px;
+  height: 250px;
   width: 300px;
 }
 
 .picslinetwoB {
-  height: 150px;
-  width: 300px;
- 
+  width: 400px;
+  height: 350px;
 }
 
 .subtwo {
@@ -313,66 +317,6 @@ nav ul li a:hover {
 /* Second section ends here */
 
 /* Carousel styling starts here */
-/* .carousel {
-  position: relative;
-  width: 800px; 
-  height: 600px; 
-  margin: 0 auto;
-}
-
-.carousel-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.carousel-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: none;
-}
-
-.carousel-item.active {
-  display: block;
-}
-
-.carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.carousel-caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  padding: 10px;
-}
-
-.carousel-prev, .carousel-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #fff;
-  border: none;
-  padding: 10px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.carousel-prev {
-  left: 0;
-}
-
-.carousel-next {
-  right: 0;
-} */
 
 main {
   width: 100vw;
@@ -415,15 +359,14 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-image: radial-gradient(transparent, rgba(0,0,0,.3));
+  background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.3));
   opacity: 0;
-  transition: opacity .2s;
+  transition: opacity 0.2s;
 }
 
 .nav-container:hover {
   opacity: 1;
 }
-
 
 .index-container {
   align-self: flex-end;
@@ -432,18 +375,17 @@ main {
 }
 
 .index-container > button {
-  width: 32px;        
-  height: 5px;        
+  width: 32px;
+  height: 5px;
   border: none;
-  border-radius: 5px;  
-  background-color: rgba(255,255,255,.3);
-  transition: background-color .2s;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: background-color 0.2s;
   cursor: pointer;
 }
 
-
 .index-container > button:hover {
-  background-color: rgba(255,255,255,.7);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 button[data-index-change] {
@@ -458,7 +400,7 @@ button[data-index-change] {
   .nav-container {
     padding: 0 0 10px;
   }
-  
+
   .index-container {
     gap: 20px;
   }
@@ -477,40 +419,40 @@ button[data-index-change] {
 }
 
 .view-more-button:hover {
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 /* Carousel styling ends here */
 
 /* Another Carousel starts here */
-* {
+/* * {
   padding: 0;
   margin: 0;
-}
+} */
 
-body {
+/* body {
   overflow-x: hidden;
   background: #fed5c8;
-}
+} */
 
-.list {
+/* .list {
   height: 200px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%)
+  transform: translate(-50%, -50%);
 }
 
 .list li {
   list-style-type: none;
-  
+
   width: 200px;
   height: 200px;
-  opacity: .25;
+  opacity: 0.25;
   position: absolute;
   left: 50%;
   margin-left: -100px;
   border-radius: 2px;
-  background: #9C89B8;
+  background: #9c89b8;
   transition: transform 1s, opacity 1s;
 }
 
@@ -524,25 +466,25 @@ body {
 }
 
 .list .prev {
-  transform: translateX(-220px) scale(.85);
+  transform: translateX(-220px) scale(0.85);
 }
 
 .list .next {
-  transform: translateX(220px) scale(.85);
+  transform: translateX(220px) scale(0.85);
 }
 
 .list .hide {
-  transform: translateX(-420px) scale(.85);
+  transform: translateX(-420px) scale(0.85);
 }
 
 .list .new-next {
-  transform: translateX(420px) scale(.85);
+  transform: translateX(420px) scale(0.85);
 }
 
 .list .hide,
 .list .new-next {
   opacity: 0;
-  transition: opacity .5s, transform .5s;
+  transition: opacity 0.5s, transform 0.5s;
 }
 
 .swipe {
@@ -553,8 +495,109 @@ body {
   border-radius: 2px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   opacity: 0;
-}
+} */
 
 /* Another carousel ends here */
+
+/* fifth div carousel start here */
+.carousel-container {
+  position: relative;
+  width: 400px;
+  height: 350px;
+  /* overflow: hidden; */
+}
+
+.carousel-inner {
+  position: relative;
+  width: 400px;
+  height: 350px;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 350px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 80%;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev-btn,
+.next-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 2px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  margin-top: -30%;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #ffffff;
+}
+
+.subonebone {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 350px;
+}
+
+.suboneb {
+  margin-top: 69px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 350px;
+}
+/* fifth div carousel ends here */
+.dual {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  margin-top: -20%;
+}
+/* Circle button starts here */
+.circle-btn {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.circle-btn span {
+  font-size: 24px;
+  color: #007bff;
+}
+/* Circle Button ends here */
