@@ -28,7 +28,7 @@
         </li>
       </ul>
     </nav> -->
-    <nav>
+    <!-- <nav>
       <ul
         style="
           display: flex;
@@ -40,7 +40,6 @@
       >
         <div class="logo" style="padding-left: 10%">
           <img src="assets/logo.png" alt="Website Logo" />
-          <!-- Replace with the path to your logo -->
         </div>
 
         <div style="display: flex; gap: 20px">
@@ -73,7 +72,6 @@
 
         <li class="world-image">
           <a href="#world-link">
-            <!-- Replace #world-link with your desired URL -->
             <img
               src="assets/world.png"
               alt="World Image"
@@ -82,7 +80,37 @@
           </a>
         </li>
       </ul>
+    </nav> -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">
+          <img src="assets/logo.png" alt="Website Logo" />
+        </a>
+      </div>
+      
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      
+      <ul class="nav-links">
+        <li><a href="#home">센터원</a></li>
+        <li><a href="#about">이용안내</a></li>
+        <li><a href="#services">서비스소개</a></li>
+        <li><a href="#projects">임대문의</a></li>
+        <li><a href="#contact">고객지원</a></li>
+      </ul>
+      
+      <div class="world-image">
+        <a href="#world-link">
+          <img src="assets/world.png" alt="World Image" />
+        </a>
+      </div>
     </nav>
+    
 
     <!-- Content Section  -->
     <div
@@ -117,12 +145,12 @@
     </div>
 
     <section class="seconddiv">
-      <div class="secondcontainer">
+      <div class="secondcontainerbtwo">
         <h1 class="firtwriteup">Convenience</h1>
-        <p class="secondwriteup">
-          미래에셋센터원에서 경험하는
-          <span style="color: #f58220">특별한 서비스</span>
-        </p>
+        <div class="secondwriteup_container">
+          <p class="secondwriteup_one_a">미래에셋센터원에서 경험하는</p>
+          <p class="secondwriteup_one_b">특별한 서비스</p>
+        </div>
 
         <div class="thirdcontainer">
           <div class="subone" style="margin-top: 80px">
@@ -134,12 +162,14 @@
               />
             </div>
             <h1 style="color: #f58220">KF GALLERY</h1>
-            <p style="color: #7d7d7d; font-size: 11px">
-              국내외 방문객에게 전시회, 문화 행사, 교육 프로그램 등 개최
-              <br />
-              <br />
-              국제 교류를 촉진하는 다양한 전시와 행사에 참여해보세요.
-            </p>
+            <div class="paragraphone_container">
+              <p class="paragraphone_line">
+                국내외 방문객에게 전시회, 문화 행사, 교육 프로그램 등 개최
+              </p>
+              <p class="paragraphone_linetwo">
+                국제 교류를 촉진하는 다양한 전시와 행사에 참여해보세요.
+              </p>
+            </div>
             <div style="display: flex; flex-direction: row; margin-top: 15px">
               <div
                 style="height: 3px; background-color: #f58220; width: 180px"
@@ -180,10 +210,14 @@
               />
             </div>
             <h1 style="color: #fff">SPARKPLUS</h1>
-            <p style="color: #7d7d7d; font-size: 11px">
-              원하는 인원만큼 사용할 수 있는 맞춤형 오피스 <br /><br />
-              일에만 집중할 수 있는 완벽한 공유 오피스를 만나보세요.
-            </p>
+            <div class="paragraphone_container">
+              <p class="paragraphone_line">
+                원하는 인원만큼 사용할 수 있는 맞춤형 오피스
+              </p>
+              <p class="paragraphone_linetwo">
+                일에만 집중할 수 있는 완벽한 공유 오피스를 만나보세요.
+              </p>
+            </div>
             <div style="display: flex; flex-direction: row; margin-top: 15px">
               <!-- <div style="height: 3px; background-color: #f58220; width: 180px"></div> -->
               <div
@@ -412,20 +446,18 @@
       </div>
     </main>
     <!-- Carousel slider ends here -->
+
+    <!-- FOTHDIV STARTS HERE -->
     <section class="forthdiv">
       <div class="secondcontainer">
         <div style="display: flex; flex-direction: row; gap: 5px; width: 300px">
           <h1 class="firtwriteup">ONLY CENTER</h1>
-          <img
-            src="assets/one.png"
-            alt="image"
-            style="height: 20px; margin-top: 20px"
-          />
+          <img class="picimageone_forthdiv" src="assets/one.png" alt="image" />
         </div>
-        <p class="secondwriteup">
-          미래에셋센터원에서만 누리는
-          <span style="color: #f58220">특별한 혜택</span>
-        </p>
+        <div class="two_text_inarow">
+          <p class="secondwriteup">미래에셋센터원에서만 누리는</p>
+          <p class="secondwriteupnewone">특별한 혜택</p>
+        </div>
 
         <div class="thirdcontainer">
           <div class="subone" style="margin-top: 60px">
@@ -439,11 +471,14 @@
             <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
               프라임 서비스
             </h1>
-            <p style="color: #7d7d7d; font-size: 11px">
-              임산부 휴게실/수유실 운영, 세차 서비스, 우편 배달 서비스 등
-              <br />
-              입주사 임직원을 위한 차별화된 서비스를 제공합니다.
-            </p>
+            <div class="paragraphone_container">
+              <p class="paragraphone_line">
+                임산부 휴게실/수유실 운영, 세차 서비스, 우편 배달 서비스 등
+              </p>
+              <p class="paragraphone_linetwo">
+                입주사 임직원을 위한 차별화된 서비스를 제공합니다.
+              </p>
+            </div>
           </div>
           <div class="subtwo" style="margin-top: 80px">
             <div class="container">
@@ -456,11 +491,14 @@
             <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
               E-pit 전기차 충전소
             </h1>
-            <p style="color: #7d7d7d; font-size: 11px">
-              미래에셋센터원 주차장에는 전기차 이용자들을 위해
-              <br />
-              일반 충전소 외에도 E-pit 전기차 충전소가 마련되어 있습니다.
-            </p>
+            <div class="paragraphone_container">
+              <p class="paragraphone_line">
+                미래에셋센터원 주차장에는 전기차 이용자들을 위해
+              </p>
+              <p class="paragraphone_linetwo">
+                일반 충전소 외에도 E-pit 전기차 충전소가 마련되어 있습니다.
+              </p>
+            </div>
           </div>
           <div class="subthree" style="margin-top: 80px">
             <div class="container">
@@ -473,29 +511,27 @@
             <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
               주차요금 할인
             </h1>
-            <p style="color: #7d7d7d; font-size: 11px">
-              오피스,에비뉴 방문시 주차할인 혜택을 드리며 주말에는
-              <br />
-              최대 8천원으로 부담없이 미래에셋센터원을 즐길 수 있습니다.
-            </p>
+            <div class="paragraphone_container">
+              <p class="paragraphone_line">
+                오피스,에비뉴 방문시 주차할인 혜택을 드리며 주말에는
+              </p>
+              <p class="paragraphone_linetwo">
+                최대 8천원으로 부담없이 미래에셋센터원을 즐길 수 있습니다.
+              </p>
+            </div>
+
+            <
           </div>
         </div>
       </div>
     </section>
+    <!-- FORTHDIV ENDS HERE -->
+
     <!-- fifthdiv starts here -->
     <section class="fifthdiv">
       <div class="secondcontainer">
         <div class="thirdcontainerb">
-          <div
-            class="suboneb"
-            style="
-              margin-top: 60px;
-              display: flex;
-              flex-direction: column;
-              height: 300px;
-              width: 300px;
-            "
-          >
+          <div class="suboneb">
             <div class="dual">
               <h1 class="firtwriteupF">지금 살펴봐야할 이벤트</h1>
               <button class="circle-btn">
@@ -547,56 +583,32 @@
                 </button>
               </div>
             </div>
-            <h1
-              style="
-                color: black;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                font-size: 18px;
-                font-weight: bolder;
-                width: 500px;
-              "
-            >
+            <h1 class="fifthdiv_texta">
               미래에셋센터원 크리스마스 작은 음악회
             </h1>
 
-            <li style="color: #979797; font-size: 12px">
-              공연 주제 : 재즈 공연
-            </li>
-            <li style="color: #979797; font-size: 12px; width: 400px">
+            <li class="textlione">공연 주제 : 재즈 공연</li>
+            <li class="textlitwo">
               장소 : 1층 계단 앞(연주), 1층 크리스마스 트리 앞(다과 및 커피
               배포)
             </li>
-            <p style="color: #979797; font-size: 12px">
-              2024.12.20(금)~2024.12.20(금)
-            </p>
+            <p class="fifthdiv_textc">2024.12.20(금)~2024.12.20(금)</p>
           </div>
 
           <div class="subonebone">
-            <div class="dual">
+            <div class="dualb">
               <h1 class="firtwriteupF">센터원 소식</h1>
               <button class="circle-btn">
                 <span>+</span>
               </button>
             </div>
 
-            <h1
-              style="
-                color: #00427a;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                font-size: 18px;
-                font-weight: bolder;
-                width: 500px;
-              "
-            >
-              미래에셋센터원 홈페이지 리뉴얼 안내
-            </h1>
-            <p style="color: #00427a; font-size: 11px; width: 450px">
+            <h1 class="nexth1a">미래에셋센터원 홈페이지 리뉴얼 안내</h1>
+            <p class="nextptaga">
               미래에셋센터원 공식 홈페이지가 리뉴얼 오픈했습니다. 더 나은 서비스
               제공을 위해 불편한...
             </p>
-            <p style="color: #00427a; font-size: 12px">2024.09.04(수)</p>
+            <p class="nextptagb">2024.09.04(수)</p>
           </div>
           <!-- SIDE SCROLL ICONS STARTS HERE -->
           <div
@@ -609,7 +621,7 @@
               z-index: 1000;
               display: none;
             "
-           >
+          >
             <div
               style="
                 background-color: #00427a;
@@ -698,59 +710,19 @@
     <!-- sixthdiv starts here -->
     <section class="sixthdiv">
       <div class="secondcontainerb">
-        <div
-          style="
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            width: 1200px;
-            margin-left: 5%;
-          "
-        >
-          <img
-            src="assets/lefthand.png"
-            alt="image"
-            style="width: 600px; height: 35px"
-          />
-          <div
-            style="
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              align-items: center;
-              width: 1200px;
-              margin-top: -5%;
-            "
-          >
-            <div
-              style="
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                gap: 2px;
-                width: 300px;
-              "
-            >
-              <h1 style="color: #ffffff; font-size: 28px">CENTER</h1>
-              <img
-                src="assets/one.png"
-                alt="image"
-                style="height: 20px; margin-top: -15px"
-              />
+        <div class="sixth_div_header">
+          <img class="lefthand_image" src="assets/lefthand.png" alt="image" />
+          <div class="sixth_div_header_text_container">
+            <div class="sixth_div_header_text_containerb">
+              <h1 class="first_texta">CENTER</h1>
+              <img class="picture_onepics" src="assets/one.png" alt="image" />
             </div>
-            <p style="color: white; margin-top: -15px; font-size: 24px">
+            <p class="first_textb">
               미래에셋센터원
-              <span style="color: #f58220; font-weight: 600; font-size: 24px"
-                >AVENUE</span
-              >
+              <span class="first_textc">AVENUE</span>
             </p>
           </div>
-          <img
-            src="assets/righthand.png"
-            alt="image"
-            style="width: 600px; height: 35px"
-          />
+          <img class="righthand_image" src="assets/righthand.png" alt="image" />
         </div>
       </div>
 
@@ -790,14 +762,19 @@
               <h1 class="firtwriteupfooter">Mirae Asset Center1</h1>
               <div class="mrassestsecondiv">
                 <div class="mrassestthirdiv">
-                  <p class="mrassestsepone">
-                    개인정보처리방침
-                  </p>
+                  <p class="mrassestsepone">개인정보처리방침</p>
                   <div class="mrassestforthdiv">
                     <button class="view-more-buttonb dropdown-toggle">
                       Family Site
-                      <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 0L10 6H0L5 0Z" fill="#333"/>
+                      <svg
+                        class="caret"
+                        width="10"
+                        height="6"
+                        viewBox="0 0 10 6"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M5 0L10 6H0L5 0Z" fill="#333" />
                       </svg>
                     </button>
                     <ul class="dropdown-menu">
@@ -806,15 +783,11 @@
                       <li><a href="#">Option 3</a></li>
                     </ul>
                     <button class="view-more-buttonc">미래에셋</button>
-
                   </div>
-                  
-                  
                 </div>
               </div>
-
             </div>
-            <p class="mrassestseptwo ">
+            <p class="mrassestseptwo">
               주소 : 서울특별시 중구 수하동 67 미래에셋 센터원 ( 서울특별시 중구
               을지로 5길 26 )
               <br />
@@ -854,5 +827,6 @@
     <script src="gallery.js"></script>
     <script src="script.js"></script>
     <script src="newscript.js"></script>
+    <script src="nav.js"></script>
   </body>
 </html>
