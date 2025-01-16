@@ -102,11 +102,28 @@ nav ul li a {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-/* Responsive design */
-
 /* Header styling ends here */
 
-/* First Section styling starts here */
+/* FIRSTDIV STARTS HERE */
+.firstdiv_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 500px;
+  width: 1500px;
+  /* border: 1px solid red; */
+  z-index: 9999;
+  position: relative;
+}
+
+.writeuponea_firstdiv {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.imagepics_writeup_firstdiv {
+  width: 1350px;
+}
 
 .firstdiv {
   height: 500px;
@@ -228,7 +245,7 @@ nav ul li a {
   margin-top: -3%;
 }
 
-/* First Section styling ends here */
+/* FIRSTDIV END HERE */
 
 /* Second section starts here */
 .seconddiv {
@@ -1133,6 +1150,32 @@ button[data-index-change] {
     transform: rotate(-45deg) translate(5px, -5px);
   }
   /*  */
+  /* NAVBAR RESPONSIVENESS ENDS HERE */
+
+  /* FIRSTDIV RESPONSIVENESS STARTS HERE */
+  .imagepics_writeup_firstdiv {
+    width: 428px;
+    height: 550px;
+  }
+  .text-overlay {
+    left: 29%;
+  }
+
+  .text-overlaytwo {
+    left: 29%;
+  }
+  .text-overlaythree {
+    left: 29%;
+  }
+  .buildingtext {
+    font-size: 4rem;
+  }
+
+  .writeuponeb_firstdiv{
+    font-size: 12px;
+    font-weight: 900;
+  }
+  /* FIRSTDIV RESPONSIVENESS ENDS HERE */
 
   .nav-container {
     padding: 0 0 10px;
@@ -1142,15 +1185,13 @@ button[data-index-change] {
     gap: 20px;
   }
 
-  /* NAVBAR RESPONSIVENESS ENDS HERE */
-
   /* SECOND DIV RESPONSIVENESS STARTS HERE */
   .seconddiv {
     height: 1800px;
   }
 
   .secondcontainerbtwo {
-    top: 200px;
+    top: 40px;
     left: 2%;
   }
 
