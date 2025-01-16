@@ -249,7 +249,7 @@ nav ul li a {
 
 /* Second section starts here */
 .seconddiv {
-  height: 800px;
+  height: 900px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -363,6 +363,8 @@ nav ul li a {
 }
 /* Second section ends here */
 
+/* THIRDDIV STARTS HERE */
+
 /* Carousel styling starts here */
 
 main {
@@ -378,6 +380,17 @@ main {
   /* width: min(100vw, 720px); */
   width: 100vw;
   aspect-ratio: 3 / 2;
+}
+
+.slider_dimensions_inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 500px;
+  width: 1500px;
+  z-index: 9999;
+  position: relative;
+  padding-top: 14%;
 }
 
 .slider-container {
@@ -460,6 +473,8 @@ button[data-index-change] {
 }
 
 /* Carousel styling ends here */
+
+/* THIRDDIV ENDS HERE */
 
 /* Another Carousel starts here */
 /* * {
@@ -1171,7 +1186,7 @@ button[data-index-change] {
     font-size: 4rem;
   }
 
-  .writeuponeb_firstdiv{
+  .writeuponeb_firstdiv {
     font-size: 12px;
     font-weight: 900;
   }
@@ -1218,8 +1233,13 @@ button[data-index-change] {
 
   /* THIRDDIV RESPONSIVENESS STARTS HERE */
   .slider-dimensions {
-    height: 800px;
+    height: 100vh;
+    width: fit-content;
   }
+  .slider-container {
+    overflow: visible;
+  }
+
   .thirdcontainer {
     flex-direction: column;
   }
