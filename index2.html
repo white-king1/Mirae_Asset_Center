@@ -2,107 +2,850 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
-
+    <title>MIRAE ASSET CENTER</title>
+    <link rel="stylesheet" href="assets/css/stylestwo.css" />
+    <!-- Make sure this path is correct -->
   </head>
   <body>
-    <ul class="list">
-      <li class="hide"></li>
-      <li class="prev"></li>
-      <li class="act"></li>
-      <li class="next"></li>
-      <li class="next new-next"></li>
-    </ul>
+    <!-- <nav>
+      <ul>
+        <div class="logo">
+          <img src="assets/logo.png" alt="Website Logo" />
+        </div>
 
-    <div class="swipe"></div>
+        <li><a href="#home">센터원</a></li>
+        <li><a href="#about">이용안내</a></li>
+        <li><a href="#services">서비스소개</a></li>
+        <li><a href="#projects">임대문의</a></li>
+        <li><a href="#contact">고객지원</a></li>
 
+        <li class="world-image">
+          <a href="#world-link">
+            <img src="assets/world.png" alt="World Image" />
+          </a>
+        </li>
+      </ul>
+    </nav> -->
+    <!-- <nav>
+      <ul
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 20px;
+          list-style: none;
+        "
+      >
+        <div class="logo" style="padding-left: 10%">
+          <img src="assets/logo.png" alt="Website Logo" />
+        </div>
+
+        <div style="display: flex; gap: 20px">
+          <li style="color: white">
+            <a href="#home" style="color: white; text-decoration: none"
+              >센터원</a
+            >
+          </li>
+          <li style="color: white">
+            <a href="#about" style="color: white; text-decoration: none"
+              >이용안내</a
+            >
+          </li>
+          <li style="color: white">
+            <a href="#services" style="color: white; text-decoration: none"
+              >서비스소개</a
+            >
+          </li>
+          <li style="color: white">
+            <a href="#projects" style="color: white; text-decoration: none"
+              >임대문의</a
+            >
+          </li>
+          <li style="color: white">
+            <a href="#contact" style="color: white; text-decoration: none"
+              >고객지원</a
+            >
+          </li>
+        </div>
+
+        <li class="world-image">
+          <a href="#world-link">
+            <img
+              src="assets/world.png"
+              alt="World Image"
+              style="margin-left: -80%"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav> -->
+
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">
+          <img src="assets/logo.png" alt="Website Logo" />
+        </a>
+      </div>
+
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#home">센터원</a></li>
+        <li><a href="#about">이용안내</a></li>
+        <li><a href="#services">서비스소개</a></li>
+        <li><a href="#projects">임대문의</a></li>
+        <li><a href="#contact">고객지원</a></li>
+      </ul>
+
+      <div class="world-image">
+        <a href="#world-link">
+          <img src="assets/world.png" alt="World Image" />
+        </a>
+      </div>
+    </nav>
+
+    <!-- Content Section  -->
+    <!-- FIRSTDIV STARTS HERE -->
+    <!-- Carousel slider starts here -->
+    <main>
+      <div class="slider-container slider-dimensionsb">
+        <div class="slider">
+          <!-- FIRST SLIDER -->
+          <div data-img-url="assets/newpicsone.jpeg" class="slider-dimensionsb">
+            <div class="slider_dimensions_inner">
+              <div class="text-overlay_slidertext_a">
+                <h1 class="first_textfora">미래에셋 센터원은</h1>
+              </div>
+              <div class="text-overlay_slidertext_b">
+                <p class="first_textforb">
+                  국내 최고 수준의 시설과 규모를 자랑하는
+                </p>
+              </div>
+              <div class="text-overlay_slidertext_c">
+                <h1 class="first_textforc">서울의 랜드마크입니다.</h1>
+              </div>
+            </div>
+            <h1
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                margin-top: 10%;
+                margin-left: -12%;
+              "
+            >
+              Main
+            </h1>
+          </div>
+          <!-- SECOND SLIDER -->
+          <div data-img-url="assets/newpicsone.jpeg" class="slider-dimensionsb">
+            <div class="slider_dimensions_inner">
+              <div class="text-overlay_slidertext_a">
+                <h1 class="first_textfora">미래에셋 센터원은</h1>
+              </div>
+              <div class="text-overlay_slidertext_b">
+                <p class="first_textforb">
+                  국내 최고 수준의 시설과 규모를 자랑하는
+                </p>
+              </div>
+              <div class="text-overlay_slidertext_c">
+                <h1 class="first_textforc">서울의 랜드마크입니다.</h1>
+              </div>
+            </div>
+            <h1
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                margin-top: 10%;
+                margin-left: -12%;
+              "
+            >
+              Main
+            </h1>
+          </div>
+          <!-- THIRD SLIDER -->
+          <div data-img-url="assets/newpicsone.jpeg" class="slider-dimensionsb">
+            <div class="slider_dimensions_inner">
+              <div class="text-overlay_slidertext_a">
+                <h1 class="first_textfora">미래에셋 센터원은</h1>
+              </div>
+              <div class="text-overlay_slidertext_b">
+                <p class="first_textforb">
+                  국내 최고 수준의 시설과 규모를 자랑하는
+                </p>
+              </div>
+              <div class="text-overlay_slidertext_c">
+                <h1 class="first_textforc">서울의 랜드마크입니다.</h1>
+              </div>
+            </div>
+            <h1
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                margin-top: 10%;
+                margin-left: -12%;
+              "
+            >
+              Main
+            </h1>
+          </div>
+          <!-- FOURTH SLIDER -->
+          <div data-img-url="assets/newpicsone.jpeg" class="slider-dimensionsb">
+            <div class="slider_dimensions_inner">
+              <div class="text-overlay_slidertext_a">
+                <h1 class="first_textfora">미래에셋 센터원은</h1>
+              </div>
+              <div class="text-overlay_slidertext_b">
+                <p class="first_textforb">
+                  국내 최고 수준의 시설과 규모를 자랑하는
+                </p>
+              </div>
+              <div class="text-overlay_slidertext_c">
+                <h1 class="first_textforc">서울의 랜드마크입니다.</h1>
+              </div>
+            </div>
+            <h1
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                margin-top: 10%;
+                margin-left: -12%;
+              "
+            >
+              Main
+            </h1>
+          </div>
+        </div>
+
+        <div class="nav-container slider-dimensions">
+          <button data-index-change="-1" style="background-color: transparent">
+            &lt;
+          </button>
+          <div class="index-container">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+          </div>
+          <button data-index-change="1" style="background-color: transparent">
+            &gt;
+          </button>
+        </div>
+      </div>
+    </main>
+    <!-- Carousel slider ends here -->
+    <!-- FIRSTDIV ENDS HERE -->
+
+    <!-- SECONDDIV STARTS HERE -->
+    <!-- Carousel slider starts here -->
+    <div class="secondmain">
+      <div class="slider-container slider-dimensionsb">
+        <div class="slider">
+          <!-- FIRST SLIDER -->
+          <div class="slider-dimensionsb">
+            <div class="slider_dimensions_inner">
+              <div class="text-overlay_slidertext_a">
+                <h1 class="first_textforatwo">MIRAE ASSET CENTER 1</h1>
+              </div>
+              <div class="text-overlay_slidertext_btwo">
+                <p class="first_textforb_two">
+                  거대자본을 투자한 금융사의 사업성과 임대오피스가 가지는
+                  효율성을 추구하면서도
+                </p>
+              </div>
+              <div class="text-overlay_slidertext_ctwo">
+                <h1 class="first_textforc_two">
+                  동시에 공공의 공익성을 동시에 만족시키고 있습니다.
+                </h1>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  width: 1100px;
+                  margin-left: 10%;
+                  margin-top: 20%;
+                  
+
+                "
+              >
+                <div style="display: flex; flex-direction: column">
+                  <p
+                    style="
+                      color: #f58220;
+                      margin-bottom: -20px;font-size: 14px;margin-left: 35%;font-weight: 900;width: 200px;
+                    "
+                  >
+                    위치
+                  </p>
+                  <h1
+                    style="
+                      color: #00427a;
+                      font-size: 20px;margin-bottom: -10px;margin-left: 5%;font-size: 40px;
+                    "
+                  >
+                    서울 중구
+                  </h1>
+                  <h1
+                    style="
+                      color: #00427a;
+                      font-size: 20px;margin-bottom: -10px;margin-left: 5%;font-size: 40px;
+                    "
+                  >
+                    수하동 67
+                  </h1>
+                </div>
+                <div style="display: flex; flex-direction: column">
+                  <p
+                    style="
+                      color: #f58220;
+                      margin-bottom: -20px;font-size: 14px;margin-left: 35%;font-weight: 900;width: 200px;
+                    "
+                  >
+                  층수
+                  </p>
+                  <h1
+                    style="
+                      color: #00427a;
+                      font-size: 20px;margin-bottom: -10px;margin-left: 5%;font-size: 40px;
+                    "
+                  >
+                  지상 32층
+                  </h1>
+                  <h1
+                    style="
+                      color: #00427a;
+                      font-size: 20px;margin-bottom: -10px;margin-left: 5%;font-size: 40px;
+                    "
+                  >
+                  지하 8층
+                  </h1>
+                </div>
+                <div style="display: flex; flex-direction: column">
+                    <p style="color: #f58220; margin-bottom: -20px;font-size: 14px;margin-left: 35%;font-weight: 900;width: 200px;">용도</p>
+                    <h1 style="color: #00427a;font-size: 20px;margin-bottom: -10px;margin-left: 5%;font-size: 40px;">판매시설</h1>
+                    <h1 style="color: #00427a;font-size: 20px;margin-bottom: -10px;margin-left: 5%;font-size: 40px;">업무시설</h1>
+                  </div>
+                  <div style="display: flex; flex-direction: column">
+                    <p style="color: #f58220; margin-bottom: -20px;font-size: 14px;margin-left: 15%;font-weight: 900;width: 200px;">대지면적 / 건축면적</p>
+                    <h1 style="color: #00427a;font-size: 40px;margin-bottom: 10px;margin-left: 5%;">9,097.3m²</h1>
+                    <h1 style="color: #00427a;font-size: 40px;margin-left: 5%">5,094.78m²</h1>
+                  </div>
+              </div>
+            </div>
+            <h1
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #00427a;
+                margin-top: 10%;
+                margin-left: -12%;
+              "
+            >
+              Center1
+            </h1>
+          </div>
+          <!-- SECOND SLIDER -->
+          <div data-img-url="assets/newpicsone.jpeg" class="slider-dimensionsb">
+            <div class="slider_dimensions_inner">
+              <div class="text-overlay_slidertext_a">
+                <h1 class="first_textfora">미래에셋 센터원은</h1>
+              </div>
+              <div class="text-overlay_slidertext_b">
+                <p class="first_textforb">
+                  국내 최고 수준의 시설과 규모를 자랑하는
+                </p>
+              </div>
+              <div class="text-overlay_slidertext_c">
+                <h1 class="first_textforc">서울의 랜드마크입니다.</h1>
+              </div>
+            </div>
+            <h1
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                margin-top: 10%;
+                margin-left: -12%;
+              "
+            >
+              Main
+            </h1>
+          </div>
+          <!-- THIRD SLIDER -->
+          <div data-img-url="assets/newpicsone.jpeg" class="slider-dimensionsb">
+            <div class="slider_dimensions_inner">
+              <div class="text-overlay_slidertext_a">
+                <h1 class="first_textfora">미래에셋 센터원은</h1>
+              </div>
+              <div class="text-overlay_slidertext_b">
+                <p class="first_textforb">
+                  국내 최고 수준의 시설과 규모를 자랑하는
+                </p>
+              </div>
+              <div class="text-overlay_slidertext_c">
+                <h1 class="first_textforc">서울의 랜드마크입니다.</h1>
+              </div>
+            </div>
+            <h1
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                margin-top: 10%;
+                margin-left: -12%;
+              "
+            >
+              Main
+            </h1>
+          </div>
+          <!-- FOURTH SLIDER -->
+          <div data-img-url="assets/newpicsone.jpeg" class="slider-dimensionsb">
+            <div class="slider_dimensions_inner">
+              <div class="text-overlay_slidertext_a">
+                <h1 class="first_textfora">미래에셋 센터원은</h1>
+              </div>
+              <div class="text-overlay_slidertext_b">
+                <p class="first_textforb">
+                  국내 최고 수준의 시설과 규모를 자랑하는
+                </p>
+              </div>
+              <div class="text-overlay_slidertext_c">
+                <h1 class="first_textforc">서울의 랜드마크입니다.</h1>
+              </div>
+            </div>
+            <h1
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                margin-top: 10%;
+                margin-left: -12%;
+              "
+            >
+              Main
+            </h1>
+          </div>
+        </div>
+
+        <div class="nav-container slider-dimensions">
+          <button data-index-change="-1" style="background-color: transparent">
+            &lt;
+          </button>
+          <div class="index-container">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+          </div>
+          <button data-index-change="1" style="background-color: transparent">
+            &gt;
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel slider ends here -->
+    <!-- SECONDDIV ENDS HERE -->
+    <!-- seventhdiv starts here -->
+    <section class="seventhdive">
+      <div>
+        <img
+          src="assets/newpicstwo.jpeg"
+          alt="image"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+    </section>
+    <!-- seventhdiv ends here -->
+
+    <!-- FORTHDIV STARTS HERE -->
+    <section class="forthdiv">
+      <div class="secondcontainer">
+        <div style="display: flex; flex-direction: row; gap: 5px; width: 300px">
+          <h1 class="firtwriteup">ONLY CENTER</h1>
+          <img class="picimageone_forthdiv" src="assets/one.png" alt="image" />
+        </div>
+        <div class="two_text_inarow">
+          <p class="secondwriteup">미래에셋센터원에서만 누리는</p>
+          <p class="secondwriteupnewone">특별한 혜택</p>
+        </div>
+
+        <div class="thirdcontainer">
+          <div class="subone" style="margin-top: 60px">
+            <div class="container">
+              <img
+                class="picslinetwo"
+                src="assets/Frame 1261159181 (2k).png"
+                alt="image"
+              />
+            </div>
+            <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
+              프라임 서비스
+            </h1>
+            <div class="paragraphone_container">
+              <p class="paragraphone_line">
+                임산부 휴게실/수유실 운영, 세차 서비스, 우편 배달 서비스 등
+              </p>
+              <p class="paragraphone_linetwo">
+                입주사 임직원을 위한 차별화된 서비스를 제공합니다.
+              </p>
+            </div>
+          </div>
+          <div class="subtwo" style="margin-top: 80px">
+            <div class="container">
+              <img
+                class="picslinetwo"
+                src="assets/Frame 1261159181 (3j).png"
+                alt="image"
+              />
+            </div>
+            <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
+              E-pit 전기차 충전소
+            </h1>
+            <div class="paragraphone_container">
+              <p class="paragraphone_line">
+                미래에셋센터원 주차장에는 전기차 이용자들을 위해
+              </p>
+              <p class="paragraphone_linetwo">
+                일반 충전소 외에도 E-pit 전기차 충전소가 마련되어 있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="subthree" style="margin-top: 80px">
+            <div class="container">
+              <img
+                class="picslinetwo"
+                src="assets/Frame 1261159181 (4i).png"
+                alt="image"
+              />
+            </div>
+            <h1 style="color: #fff; margin-top: 10px; margin-bottom: 10px">
+              주차요금 할인
+            </h1>
+            <div class="paragraphone_container">
+              <p class="paragraphone_line">
+                오피스,에비뉴 방문시 주차할인 혜택을 드리며 주말에는
+              </p>
+              <p class="paragraphone_linetwo">
+                최대 8천원으로 부담없이 미래에셋센터원을 즐길 수 있습니다.
+              </p>
+            </div>
+
+            <
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FORTHDIV ENDS HERE -->
+
+    <!-- fifthdiv starts here -->
+    <section class="fifthdiv">
+      <div class="secondcontainer">
+        <div class="thirdcontainerb">
+          <div class="suboneb">
+            <div class="dual">
+              <h1 class="firtwriteupF">지금 살펴봐야할 이벤트</h1>
+              <button class="circle-btn">
+                <span>+</span>
+              </button>
+            </div>
+
+            <div class="carousel-container">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="picslinetwoB"
+                    src="assets/Frame 1261159181MN.png"
+                    alt="image"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="picslinetwoB"
+                    src="assets/Frame 1261159181 (1L).png"
+                    alt="image"
+                  />
+                </div>
+              </div>
+              <div class="carousel-controls">
+                <button class="prev-btn">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                  </svg>
+                </button>
+                <button class="next-btn">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <h1 class="fifthdiv_texta">
+              미래에셋센터원 크리스마스 작은 음악회
+            </h1>
+
+            <li class="textlione">공연 주제 : 재즈 공연</li>
+            <li class="textlitwo">
+              장소 : 1층 계단 앞(연주), 1층 크리스마스 트리 앞(다과 및 커피
+              배포)
+            </li>
+            <p class="fifthdiv_textc">2024.12.20(금)~2024.12.20(금)</p>
+          </div>
+
+          <div class="subonebone">
+            <div class="dualb">
+              <h1 class="firtwriteupF">센터원 소식</h1>
+              <button class="circle-btn">
+                <span>+</span>
+              </button>
+            </div>
+
+            <h1 class="nexth1a">미래에셋센터원 홈페이지 리뉴얼 안내</h1>
+            <p class="nextptaga">
+              미래에셋센터원 공식 홈페이지가 리뉴얼 오픈했습니다. 더 나은 서비스
+              제공을 위해 불편한...
+            </p>
+            <p class="nextptagb">2024.09.04(수)</p>
+          </div>
+          <!-- SIDE SCROLL ICONS STARTS HERE -->
+          <div
+            style="
+              position: fixed;
+              top: 50%;
+              right: 2%;
+              height: 250px;
+              width: 60px;
+              z-index: 1000;
+              display: none;
+            "
+          >
+            <div
+              style="
+                background-color: #00427a;
+                height: 65px;
+                width: 60px;
+                border-radius: 8px;
+                padding-top: 5px;
+              "
+            >
+              <img
+                src="assets/headset.png"
+                alt="image"
+                style="display: block; margin: 0 auto"
+              />
+              <p style="color: #ffffff; font-size: 10px; text-align: center">
+                주요문의처
+              </p>
+            </div>
+
+            <div
+              style="
+                background-color: #ffffff;
+                height: 65px;
+                width: 60px;
+                border-radius: 8px;
+                margin-top: 10px;
+                padding-top: 5px;
+              "
+            >
+              <img
+                src="assets/book.png"
+                alt="image"
+                style="display: block; margin: 0 auto"
+              />
+              <p style="color: #00427a; font-size: 10px; text-align: center">
+                임대문의
+              </p>
+            </div>
+            <div
+              style="
+                background-color: #ffffff;
+                height: 65px;
+                width: 60px;
+                border-radius: 8px;
+                margin-top: 10px;
+                padding-top: 5px;
+              "
+            >
+              <img
+                src="assets/calender.png"
+                alt="image"
+                style="display: block; margin: 0 auto"
+              />
+              <p style="color: #00427a; font-size: 10px; text-align: center">
+                방문예약
+              </p>
+            </div>
+            <div
+              style="
+                background-color: #ffffff;
+                height: 65px;
+                width: 60px;
+                border-radius: 8px;
+                margin-top: 10px;
+                padding-top: 5px;
+                cursor: pointer;
+              "
+              onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+            >
+              <img
+                src="assets/download.png"
+                alt="image"
+                style="display: block; margin: 0 auto"
+              />
+              <p style="color: #00427a; font-size: 10px; text-align: center">
+                TOP
+              </p>
+            </div>
+          </div>
+          <!-- SIDE SCROLL ICONS ENDS HERE -->
+        </div>
+      </div>
+    </section>
+    <!-- fifthdiv ends here -->
+
+    <!-- sixthdiv starts here -->
+    <section class="sixthdiv">
+      <div class="secondcontainerb">
+        <div class="sixth_div_header">
+          <img class="lefthand_image" src="assets/lefthand.png" alt="image" />
+          <div class="sixth_div_header_text_container">
+            <div class="sixth_div_header_text_containerb">
+              <h1 class="first_texta">CENTER</h1>
+              <img class="picture_onepics" src="assets/one.png" alt="image" />
+            </div>
+            <p class="first_textb">
+              미래에셋센터원
+              <span class="first_textc">AVENUE</span>
+            </p>
+          </div>
+          <img class="righthand_image" src="assets/righthand.png" alt="image" />
+        </div>
+      </div>
+
+      <ul class="list">
+        <li class="hide"><img src="assets/image1.png" alt="Image 1" /></li>
+        <li class="prev"><img src="assets/image2.png" alt="Image 2" /></li>
+        <li class="act"><img src="assets/image3.png" alt="Image 3" /></li>
+        <li class="next"><img src="assets/image4.png" alt="Image 4" /></li>
+        <li class="next new-next">
+          <img src="assets/image5.png" alt="Image 5" />
+        </li>
+        <li class="hide"><img src="assets/image6.png" alt="Image 6" /></li>
+        <li class="hide"><img src="assets/image7.png" alt="Image 7" /></li>
+        <li class="hide"><img src="assets/image8.png" alt="Image 8" /></li>
+      </ul>
+      <div class="swipe"></div>
+    </section>
+    <!-- sxthdiv ends here -->
+
+    <!-- eightdiv starts here -->
+    <section class="eightdiv">
+      <div class="secondcontainerlast">
+        <div class="footerthirddiv">
+          <div class="footerforthdiv">
+            <div class="miraeassetsone">
+              <h1 class="firtwriteupfooter">Mirae Asset Center1</h1>
+              <div class="mrassestsecondiv">
+                <div class="mrassestthirdiv">
+                  <p class="mrassestsepone">개인정보처리방침</p>
+                  <div class="mrassestforthdiv">
+                    <button class="view-more-buttonb dropdown-toggle">
+                      Family Site
+                      <svg
+                        class="caret"
+                        width="10"
+                        height="6"
+                        viewBox="0 0 10 6"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M5 0L10 6H0L5 0Z" fill="#333" />
+                      </svg>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Option 1</a></li>
+                      <li><a href="#">Option 2</a></li>
+                      <li><a href="#">Option 3</a></li>
+                    </ul>
+                    <button class="view-more-buttonc">미래에셋</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="mrassestseptwo">
+              주소 : 서울특별시 중구 수하동 67 미래에셋 센터원 ( 서울특별시 중구
+              을지로 5길 26 )
+              <br />
+              대표번호 : 02-6030-0100
+            </p>
+          </div>
+          <!-- <div style="display: flex; flex-direction: column">
+            <div style="display: flex; flex-direction: row">
+              <p style="color: white; font-size: 18px; width: 200px">
+                개인정보처리방침
+              </p>
+              <button class="view-more-buttonb dropdown-toggle">
+                Family Site
+                <svg class="caret" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 0L10 6H0L5 0Z" fill="#333"/>
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+              </ul>
+              
+            </div>
+            <button class="view-more-buttonc">미래에셋</button>
+          </div> -->
+        </div>
+
+        <p class="mrassestsepthree">
+          COPYRIGHT(C) 2011 MIRAE ASSET COPORATION. CO., Ltd. ALL RIGHT
+          RESERVED.
+        </p>
+      </div>
+    </section>
+    <!-- eightdiv ends here -->
     <script src="https://hammerjs.github.io/dist/hammer.js"></script>
-
-    <script>
-      const $ = (selector) => {
-        return document.querySelector(selector);
-      };
-
-      function next() {
-        if ($(".hide")) {
-          $(".hide").remove();
-        }
-
-        /* Step */
-
-        if ($(".prev")) {
-          $(".prev").classList.add("hide");
-          $(".prev").classList.remove("prev");
-        }
-
-        $(".act").classList.add("prev");
-        $(".act").classList.remove("act");
-
-        $(".next").classList.add("act");
-        $(".next").classList.remove("next");
-
-        /* New Next */
-
-        $(".new-next").classList.remove("new-next");
-
-        const addedEl = document.createElement("li");
-
-        $(".list").appendChild(addedEl);
-        addedEl.classList.add("next", "new-next");
-      }
-
-      function prev() {
-        $(".new-next").remove();
-
-        /* Step */
-
-        $(".next").classList.add("new-next");
-
-        $(".act").classList.add("next");
-        $(".act").classList.remove("act");
-
-        $(".prev").classList.add("act");
-        $(".prev").classList.remove("prev");
-
-        /* New Prev */
-
-        $(".hide").classList.add("prev");
-        $(".hide").classList.remove("hide");
-
-        const addedEl = document.createElement("li");
-
-        $(".list").insertBefore(addedEl, $(".list").firstChild);
-        addedEl.classList.add("hide");
-      }
-
-      slide = (element) => {
-        /* Next slide */
-
-        if (element.classList.contains("next")) {
-          next();
-
-          /* Previous slide */
-        } else if (element.classList.contains("prev")) {
-          prev();
-        }
-      };
-
-      const slider = $(".list"),
-        swipe = new Hammer($(".swipe"));
-
-      slider.onclick = (event) => {
-        slide(event.target);
-      };
-
-      swipe.on("swipeleft", (ev) => {
-        next();
-      });
-
-      swipe.on("swiperight", (ev) => {
-        prev();
-      });
-    </script>
+    <script src="gallery.js"></script>
+    <script src="script.js"></script>
+    <script src="newscript.js"></script>
+    <script src="nav.js"></script>
   </body>
 </html>
