@@ -3,7 +3,7 @@
 /* Set background image for the whole body */
 
 body {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   height: 100vh;
@@ -13,6 +13,8 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
 }
+
+/* Reset default browser styles */
 
 /* Header styling starts here */
 
@@ -104,8 +106,6 @@ body {
   flex-direction: row;
   gap: 20px;
 }
-/* THIRDDIV STARTS HERE FROM INDEX.HTML */
-
 /* Carousel styling starts here */
 .first_textfora {
   margin-left: 50%;
@@ -208,6 +208,9 @@ main {
   align-self: flex-end;
   display: flex;
   gap: 30px;
+  position: absolute;
+  top: 93%;
+  left: 42%;
 }
 
 .index-container > button {
@@ -255,8 +258,6 @@ button[data-index-change] {
 
 /* Carousel styling ends here */
 
-/* THIRDDIV ENDS HERE  FROM INDEX.HTML*/
-
 .text-overlay_slidertext_a {
   position: absolute;
   top: 50%;
@@ -302,9 +303,152 @@ button[data-index-change] {
   gap: 20px;
 }
 
+.maingamehere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 10%;
+  margin-left: -12%;
+}
+
 /* FIRSTDIV END HERE */
 
 /* SECONDDIV STARTS HERE */
+.grand_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1100px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.grad_container_writeupsa {
+  display: flex;
+  flex-direction: column;
+}
+
+.grad_container_pa {
+  color: #f58220;
+  margin-bottom: -20px;
+  font-size: 14px;
+  margin-left: 35%;
+  font-weight: 900;
+  width: 200px;
+}
+
+.grad_container_pb {
+  color: #f58220;
+  margin-bottom: -20px;
+  font-size: 14px;
+  margin-left: 35%;
+  font-weight: 900;
+  width: 200px;
+}
+
+.grad_container_pc {
+  color: #f58220;
+  margin-bottom: -20px;
+  font-size: 14px;
+  margin-left: 35%;
+  font-weight: 900;
+  width: 200px;
+}
+
+.grad_container_pd {
+  color: #f58220;
+  margin-bottom: -20px;
+  font-size: 14px;
+  margin-left: 15%;
+  font-weight: 900;
+  width: 200px;
+}
+
+.grad_container_ha {
+  color: #00427a;
+  font-size: 20px;
+  margin-bottom: -10px;
+  margin-left: 5%;
+  font-size: 40px;
+}
+
+.grad_container_hb {
+  color: #00427a;
+  font-size: 20px;
+  margin-bottom: -10px;
+  margin-left: 5%;
+  font-size: 40px;
+}
+
+.grad_container_ha_two {
+  color: #00427a;
+  font-size: 20px;
+  margin-bottom: -10px;
+  margin-left: 5%;
+  font-size: 40px;
+}
+
+.grad_container_hb_two {
+  color: #00427a;
+  font-size: 20px;
+  margin-bottom: -10px;
+  margin-left: 5%;
+  font-size: 40px;
+}
+.heat_one {
+  color: #00427a;
+  font-size: 20px;
+  margin-bottom: -10px;
+  margin-left: 5%;
+  font-size: 40px;
+}
+.heat_two {
+  color: #00427a;
+  font-size: 20px;
+  margin-bottom: -10px;
+  margin-left: 5%;
+  font-size: 40px;
+}
+.heat_three {
+  color: #00427a;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+}
+.heat_four {
+  color: #00427a;
+  font-size: 40px;
+  margin-left: 5%;
+}
+.backforecontainer {
+  position: relative;
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-text {
+  position: absolute;
+  top: -140%;
+  left: -3%;
+  width: 100%;
+  height: 300px;
+  font-size: 308px;
+  color: #acc4d866;
+  /* z-index: -1; */
+  text-align: center;
+}
+.foreground-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00427a;
+  margin-top: 10%;
+  margin-left: -12%;
+}
 
 .text-overlay {
   position: absolute;
@@ -318,7 +462,6 @@ button[data-index-change] {
   width: 800px;
   display: flex;
   flex-direction: row;
-  
 }
 
 /* Carousel styling starts here */
@@ -326,7 +469,7 @@ button[data-index-change] {
   margin-left: 45%;
   font-size: 30px;
   margin-top: -25%;
-  color: #00427A;
+  color: #00427a;
 }
 
 .first_textforb_two {
@@ -344,13 +487,13 @@ button[data-index-change] {
   color: #575757;
 }
 
-.secondmain{
+.secondmain {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 220px;
+  margin-top: 200px;
 }
 
 .slider-dimensions {
@@ -358,10 +501,11 @@ button[data-index-change] {
   aspect-ratio: 3 / 2;
 }
 
-.slider-dimensionsb {
+.slider-dimensionsb_two {
   width: 100vw;
   aspect-ratio: 3 / 2;
   background-color: white;
+  height: 900px;
 }
 
 .slider_dimensions_inner {
@@ -404,6 +548,10 @@ button[data-index-change] {
   background-repeat: no-repeat;
   background-position: center;
 }
+.slider:hover {
+  
+}
+
 
 .nav-container {
   position: absolute;
@@ -412,37 +560,24 @@ button[data-index-change] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.3)); */
-  opacity: 0;
-  transition: opacity 0.2s;
-  margin-top: -5%;
+  margin-top: -2%;
 }
 
 .nav-container:hover {
-  opacity: 1;
+  opacity: 1 !important;
+  transition: none !important;
 }
 
-.index-container {
+#index-container_newone {
   align-self: flex-end;
   display: flex;
   gap: 30px;
+  position: absolute;
+  top: 99%;
+  left: 40%;
 }
 
-.index-container > button {
-  width: 32px;
-  height: 5px;
-  border: none;
-  border-radius: 5px;
-  /* background-color: rgba(255, 255, 255, 0.3); */
-  transition: background-color 0.2s;
-  cursor: pointer;
-}
-
-/* .index-container > button:hover {
-  background-color: rgba(255, 255, 255, 0.7);
-} */
-
-button{
+button {
   font-size: 40px;
   color: white;
   background-color: transparent;
@@ -462,19 +597,12 @@ button{
   border-radius: 4px;
 }
 
-/* .view-more-button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-} */
-
 .text-overlaythreea_next {
   font-size: 12px;
   font-weight: bolder;
 }
 
 /* Carousel styling ends here */
-
-/* THIRDDIV ENDS HERE  FROM INDEX.HTML*/
-
 .text-overlay_slidertext_a {
   position: absolute;
   top: 50%;
@@ -519,26 +647,346 @@ button{
 
 /* SECONDDIV END HERE */
 
-/* Second section starts here */
-.seconddiv {
-  height: 900px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background-color: #242424;
-  margin-top: 12%;
-  width: 1550px;
+/* THIRDDIV STARTS HERE */
+
+.thirddiv_image {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  margin-top: 130px;
+  opacity: 120%;
 }
 
-.forthdiv {
+.image-container {
+  position: relative;
+  display: inline-block; /* Optional: Adjust depending on your layout */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 30%; /* Adjust vertical alignment */
+  left: 16%; /* Adjust horizontal alignment */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: #00427a; /* Text color */
+  font-size: 1.5rem; /* Adjust font size */
+  font-weight: bold; /* Make the text bold */
+  text-align: center;
+}
+
+.overlay-text_two {
+  position: absolute;
+  top: 33%; /* Adjust vertical alignment */
+  left: 25%; /* Adjust horizontal alignment */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: black; /* Text color */
+  font-size: 1.5rem; /* Adjust font size */
+  font-weight: bold; /* Make the text bold */
+  text-align: center;
+}
+
+.overlay-text_three {
+  position: absolute;
+  top: 37%; /* Adjust vertical alignment */
+  left: 22%; /* Adjust horizontal alignment */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: black; /* Text color */
+  font-size: 1.3rem; /* Adjust font size */
+  font-weight: bold; /* Make the text bold */
+  text-align: center;
+}
+
+.overlay-text_four {
+  position: absolute;
+  top: 44%; /* Adjust vertical alignment */
+  left: 40%; /* Adjust horizontal alignment */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: #2c2c2c; /* Text color */
+  font-size: 1.1rem; /* Adjust font size */
+  font-weight: bold; /* Make the text bold */
+  text-align: center;
+}
+.overlay-text_five {
+  position: absolute;
+  top: 47%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: #2c2c2c;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.overlay-text_six {
+  display: none;
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: #2c2c2c;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.firstline_headtext {
+  color: black;
+}
+
+.firstline_ptext {
+  color: #575757;
+}
+
+.firstline_ptextnext {
+  color: #575757;
+}
+
+.overlay-text_seven {
+  /* display: none; */
+  position: absolute;
+  top: 55%;
+  left: 13%;
+}
+
+/* THIRDDIV CAROUSEL STARTS HERE */
+#wrapper {
+  width: 1200px;
+  /* max-width: 964px; */
+  position: relative;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 20px;
+  color: black;
+  font-weight: 900;
+}
+
+.awards_line_white {
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+
+#content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 350px;
+  height: 287px;
+  background: green;
+}
+
+#dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.dot {
+  width: 20px;
+  height: 10px;
+  background: white;
+  border-radius: 10%;
+  margin: 0 5px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.dot.active {
+  opacity: 1;
+}
+
+/* THIRDDIV CAROUSEL ENDS HERE */
+
+.thirdmain {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9%;
+}
+/* THIRDDIV ENDS HERE */
+
+/* FORTHDIV STARTS HERE */
+.forthmain {
+  width: 100vw;
+  height: 3000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9%;
+}
+
+.slider-dimensionsb_two_dforth {
+  width: 100vw;
+  aspect-ratio: 3 / 2;
+  background-color: white;
+  height: 3250px;
+}
+
+.first_textforatwo_d {
+  /* margin-left: 45%; */
+  font-size: 30px;
+  margin-top: -25%;
+  color: black;
+  text-shadow: none;
+}
+
+.text-overlay_slidertext_btwo_dpics {
+  position: absolute;
+  top: 30%;
+  left: 12%;
+}
+
+.stoneonepics{
+  width: 800px;
+  height: 400px;
+}
+
+.text-overlay_slidertext_ctwo_dnext {
+  position: absolute;
+  top: 87%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
+.first_textforc_two_dnext {
+  margin-left: 45%;
+  font-size: 20px;
+  margin-top: 10%;
+  color: #2C2C2C;
+  text-shadow: none;
+}
+
+.text-overlay_slidertext_ctwo_dnextb{
+  position: absolute;
+  top: 87%;
+  left: 15%;
+}
+.first_textforc_two_dnextbee {
+  margin-left: -5%;
+  font-size: 12px;
+  margin-top: 10%;
+  color: #575757;
+  text-shadow: none;
+}
+.first_textforc_two_dnextbeetwo {
+  margin-left: -5%;
+  font-size: 12px;
+  margin-top: 5%;
+  color: #575757;
+  text-shadow: none;
+}
+
+.core_value_only{
+  margin-left: 20%;
+  font-size: 34px;
+  margin-top: 25%;
+  color: #00427A;
+  text-shadow: none;
+}
+
+.slider_dimensions_inner_two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 500px;
+  width: 1500px;
+  z-index: 9999;
+  position: relative;
+  padding-top: 14%;
+  margin-top: -1%;
+  margin-left: 20%;
+}
+
+#index-container_newoneb {
+  align-self: flex-end;
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  top: 300%;
+  left: 10%;
+  /* border: 5px solid red; */
+}
+/* .forthdiv {
   height: 800px;
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #242424;
-  margin-top: 10%;
+  background-color: white;
+  margin-top: -2%;
   width: 1550px;
 }
+
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.mySlides1 {
+  padding: 40px;
+  text-align: center;
+  height: 300px; 
+  background-color: white;
+  border: 5px solid red;
+}
+
+#dots_can {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.dot {
+  width: 20px;
+  height: 10px;
+  background: white;
+  border-radius: 10%;
+  margin: 0 5px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.dot_b.active {
+  opacity: 1;
+}
+.active {
+  background-color: gray;
+} */
+
+/* FORTHDIV ENDS HERE */
+
+/* FIFTHDIV STARTS HERE */
 
 .eightdiv {
   height: 400px;
@@ -546,31 +994,8 @@ button{
   display: flex;
   flex-direction: column;
   background-color: #242424;
-  /* margin-top: 10%; */
+  margin-top: 9%;
   width: 1550px;
-}
-
-.secondcontainer {
-  position: absolute;
-  top: 80px;
-  left: 12%;
-  height: auto;
-  width: auto;
-}
-
-.secondcontainerbtwo {
-  position: absolute;
-  top: 200px;
-  left: 12%;
-  height: auto;
-  width: auto;
-}
-
-.secondcontainerb {
-  position: absolute;
-  top: 80px;
-  height: 500px;
-  width: auto;
 }
 
 .secondcontainerlast {
@@ -583,497 +1008,6 @@ button{
   left: 12%;
 }
 
-.firtwriteup {
-  color: #fff;
-}
-.firtwriteupF {
-  color: #2c2c2c;
-}
-
-.thirdcontainer {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
-
-.thirdcontainerb {
-  display: flex;
-  flex-direction: row;
-  gap: 150px;
-  /* border: 5px solid black; */
-  width: 1155px;
-}
-
-.picslinetwo {
-  height: 250px;
-  width: 300px;
-}
-
-.picslinetwoB {
-  width: 400px;
-  height: 350px;
-}
-
-.subtwo {
-  display: flex;
-  flex-direction: column;
-}
-
-.secondwriteup_container {
-  display: flex;
-  flex-direction: row;
-  width: 320px;
-  justify-content: space-between;
-}
-
-.secondwriteup_one_a {
-  color: #ffffff;
-}
-
-.secondwriteup_one_b {
-  color: #f58220;
-}
-/* Second section ends here */
-
-/* Another Carousel starts here */
-/* * {
-  padding: 0;
-  margin: 0;
-} */
-
-/* body {
-  overflow-x: hidden;
-  background: #fed5c8;
-} */
-
-/* .list {
-  height: 200px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.list li {
-  list-style-type: none;
-
-  width: 200px;
-  height: 200px;
-  opacity: 0.25;
-  position: absolute;
-  left: 50%;
-  margin-left: -100px;
-  border-radius: 2px;
-  background: #9c89b8;
-  transition: transform 1s, opacity 1s;
-}
-
-.list .act {
-  opacity: 1;
-}
-
-.list .prev,
-.list .next {
-  cursor: pointer;
-}
-
-.list .prev {
-  transform: translateX(-220px) scale(0.85);
-}
-
-.list .next {
-  transform: translateX(220px) scale(0.85);
-}
-
-.list .hide {
-  transform: translateX(-420px) scale(0.85);
-}
-
-.list .new-next {
-  transform: translateX(420px) scale(0.85);
-}
-
-.list .hide,
-.list .new-next {
-  opacity: 0;
-  transition: opacity 0.5s, transform 0.5s;
-}
-
-.swipe {
-  width: 270px;
-  height: 200px;
-  position: absolute;
-  background-color: green;
-  border-radius: 2px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-} */
-
-/* Another carousel ends here */
-
-/* FORTHDIV  STARTS HERE */
-.picimageone_forthdiv {
-  height: 20px;
-  margin-top: 20px;
-}
-
-.two_text_inarow {
-  display: flex;
-  flex-direction: row;
-  width: 302px;
-  justify-content: space-between;
-}
-
-.secondwriteup {
-  color: #fff;
-}
-
-.secondwriteupnewone {
-  color: #f58220;
-}
-
-.paragraphone_container {
-  display: flex;
-  flex-direction: column;
-}
-
-.paragraphone_line {
-  color: #7d7d7d;
-  font-size: 11px;
-}
-
-.paragraphone_linetwo {
-  color: #7d7d7d;
-  font-size: 11px;
-  margin-top: -2%;
-}
-
-/* FORTHDIV  ENDS HERE */
-
-/* FIFTHDIV STARTS HERE */
-.fifthdiv {
-  height: 800px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background-color: #eceff1;
-  width: 1550px;
-}
-.fifthdiv_textc {
-  color: #979797;
-  font-size: 12px;
-}
-.textlitwo {
-  color: #979797;
-  font-size: 12px;
-  width: 400px;
-}
-
-.textlione {
-  color: #979797;
-  font-size: 12px;
-}
-
-.nexth1a {
-  color: #00427a;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: bolder;
-  width: 500px;
-}
-
-.nextptaga {
-  color: #00427a;
-  font-size: 11px;
-  width: 450px;
-}
-
-.nextptagb {
-  color: #00427a;
-  font-size: 12px;
-}
-
-/* fifth div carousel start here */
-.carousel-container {
-  position: relative;
-  width: 400px;
-  height: 350px;
-  /* overflow: hidden; */
-}
-
-.carousel-inner {
-  position: relative;
-  width: 400px;
-  height: 350px;
-}
-
-.carousel-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 400px;
-  height: 350px;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-.carousel-item.active {
-  opacity: 1;
-}
-
-.carousel-controls {
-  position: absolute;
-  top: 80%;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.prev-btn,
-.next-btn {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  font-size: 10px;
-  padding: 2px;
-  background-color: #ffffff;
-  border-radius: 30px;
-  width: 30px;
-  height: 30px;
-  margin-top: -30%;
-}
-
-.prev-btn:hover,
-.next-btn:hover {
-  background-color: #ffffff;
-}
-
-.subonebone {
-  margin-top: 72px;
-  display: flex;
-  flex-direction: column;
-  height: 300px;
-  width: 350px;
-}
-
-.suboneb {
-  margin-top: 69px;
-  display: flex;
-  flex-direction: column;
-  height: 300px;
-  width: 350px;
-}
-
-.dualb {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 400px;
-  margin-top: -20%;
-}
-/* fifth div carousel ends here */
-.dual {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 400px;
-  margin-top: -20%;
-}
-/* Circle button starts here */
-.circle-btn {
-  width: 20px;
-  height: 20px;
-  border: none;
-  border-radius: 50%;
-  background-color: #fff;
-  border: 2px solid #007bff;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 25px;
-}
-
-.circle-btn span {
-  font-size: 24px;
-  color: #007bff;
-}
-
-.fifthdiv_texta {
-  color: black;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: bolder;
-  width: 500px;
-}
-/* Circle Button ends here */
-/* FIFTHDIV ENDS HERE */
-
-/* sixthdiv starts here */
-.sixthdiv {
-  height: 800px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background-color: #242424;
-  /* margin-top: 10%; */
-  width: 1550px;
-}
-
-.sixth_div_header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1200px;
-  margin-left: 5%;
-}
-
-.lefthand_image {
-  width: 600px;
-  height: 35px;
-}
-
-.righthand_image {
-  width: 600px;
-  height: 35px;
-}
-
-.sixth_div_header_text_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 1200px;
-  margin-top: -5%;
-}
-
-.sixth_div_header_text_containerb {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 2px;
-  width: 300px;
-}
-
-.first_texta {
-  color: #ffffff;
-  font-size: 28px;
-}
-.picture_onepics {
-  height: 20px;
-  margin-top: -15px;
-}
-.first_textb {
-  color: white;
-  margin-top: -15px;
-  font-size: 24px;
-}
-.first_textc {
-  color: #f58220;
-  font-weight: 600;
-  font-size: 24px;
-}
-
-/* sixthdiv carousel starts here */
-.list {
-  height: 200px;
-  position: absolute;
-  top: 30%;
-  left: 42%;
-  transform: translate(-50%, -50%);
-  perspective: 1000px;
-}
-
-.list li {
-  list-style-type: none;
-  width: 200px;
-  height: 200px;
-  opacity: 0.25;
-  position: absolute;
-  left: 50%;
-  margin-left: -100px;
-  border-radius: 2px;
-  background: none;
-  transition: transform 1s, opacity 1s;
-  transform-style: preserve-3d;
-}
-
-.list li img {
-  width: 250px;
-  height: 500px;
-  /* height: 100%; */
-  /* object-fit: cover; */
-  border-radius: 2px;
-}
-
-.list .act {
-  opacity: 5;
-  transform: translateZ(0);
-}
-
-.list .prev,
-.list .next {
-  cursor: pointer;
-}
-
-.list .prev {
-  transform: translateX(-250px) scale(0.85);
-}
-
-.list .next {
-  transform: translateX(255px) scale(0.85);
-}
-
-.list .hide {
-  transform: translateX(-450px) scale(0.85);
-}
-
-.list .new-next {
-  transform: translateX(450px) scale(0.85);
-}
-
-.list .hide,
-.list .new-next {
-  opacity: 0;
-  transition: opacity 0.5s, transform 0.5s;
-}
-
-.swipe {
-  width: 270px;
-  height: 200px;
-  position: absolute;
-  background-color: green;
-  border-radius: 2px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-}
-/* sixthdiv carousel ends here */
-
-/* sixthdiv ends here */
-
-.view-more-buttonc {
-  background-color: transparent;
-  border: 1px solid #fff;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 14px;
-  cursor: pointer;
-  margin-top: 4%;
-  margin-left: 15%;
-  border-radius: 4px;
-  width: 120px;
-}
-
-/* eightdiv starts here */
 .footerthirddiv {
   display: flex;
   flex-direction: row;
@@ -1086,39 +1020,20 @@ button{
   display: flex;
   flex-direction: column;
 }
-.firtwriteupfooter {
-  color: #ffffff;
-}
+
 .miraeassetsone {
   display: flex;
   flex-direction: row;
   width: 1100px;
   justify-content: space-between;
 }
+
+.firtwriteupfooter {
+  color: #ffffff;
+}
 .mrassestsecondiv {
   display: flex;
   flex-direction: column;
-}
-.mrassestthirddiv {
-  display: flex;
-  flex-direction: row;
-}
-
-.mrassestsepone {
-  color: white;
-  font-size: 18px;
-  width: 150px;
-}
-
-.mrassestseptwo {
-  color: #ffffff;
-  margin-top: -3%;
-  font-size: 10px;
-}
-
-.mrassestsepthree {
-  color: #ffffff;
-  font-size: 12px;
 }
 
 .mrassestthirdiv {
@@ -1129,11 +1044,19 @@ button{
   gap: 30px;
 }
 
+.mrassestsepone {
+  color: white;
+  font-size: 18px;
+  width: 200px;
+}
+
 .mrassestforthdiv {
   display: flex;
   flex-direction: column;
   margin-left: -5%;
+  margin-top: 4%;
 }
+
 /* family site button dropdown styling  starts here*/
 .view-more-buttonb {
   background-color: transparent;
@@ -1151,16 +1074,6 @@ button{
 .view-more-buttonb:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
-/* .view-more-buttonb {
-  background-color: transparent;
-  border: 1px solid #fff;
-  color: #fff;
-  border: white;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  position: relative;
-} */
 
 .caret {
   position: absolute;
@@ -1195,7 +1108,13 @@ button{
 }
 /*family site button dropdown styling  ends here  */
 
-/* eigthdiv ends here */
+.mrassestseptwo {
+  color: #ffffff;
+  margin-top: -1%;
+  font-size: 10px;
+}
+
+/* FIFTHDIV ENDS HERE */
 
 /* RESPONSIVNESS STARTS HERE */
 
@@ -1391,11 +1310,127 @@ button{
   .index-container {
     gap: 20px;
   }
+
+  .maingamehere {
+    color: transparent;
+  }
   /* FIRSTDIV RESPONSIVENESS ENDS HERE */
 
- 
-
   /* SECOND DIV RESPONSIVENESS STARTS HERE */
+  .secondmain {
+    margin-top: 76px;
+  }
+
+  .first_textforatwo {
+    margin-left: 40%;
+    font-size: 20px;
+    margin-top: -28%;
+    text-shadow: none;
+  }
+
+  .first_textforb_two {
+    margin-left: 32%;
+    font-size: 10px;
+    margin-top: 18%;
+    width: 400px;
+    text-shadow: none;
+  }
+
+  .text-overlay_slidertext_ctwo {
+    top: 30%;
+    left: 17%;
+  }
+  .first_textforc_two {
+    margin-top: 5%;
+    text-shadow: none;
+  }
+
+  .text-overlay_slidertext_btwo {
+    top: 15%;
+  }
+
+  .grand_container {
+    flex-direction: column;
+    width: 400px;
+    margin-left: 23%;
+    margin-top: 55%;
+  }
+
+  .grad_container_writeupsa {
+    margin-bottom: 20px;
+  }
+
+  .grad_container_pa {
+    margin-left: 27%;
+  }
+  .grad_container_pb {
+    margin-left: 27%;
+  }
+
+  .grad_container_pc {
+    margin-left: 27%;
+  }
+
+  .grad_container_pd {
+    margin-left: 11%;
+  }
+
+  .grad_container_ha {
+    margin-left: 10%;
+    font-size: 30px;
+  }
+
+  .grad_container_ha_two {
+    margin-left: 10%;
+    font-size: 30px;
+  }
+
+  .grad_container_hb {
+    margin-bottom: -10px;
+    margin-left: 10%;
+    font-size: 35px;
+  }
+
+  .grad_container_hb_two {
+    margin-left: 10%;
+    font-size: 30px;
+  }
+
+  .heat_one {
+    margin-left: 10%;
+    font-size: 35px;
+  }
+
+  .heat_two {
+    margin-left: 10%;
+    font-size: 35px;
+  }
+  .heat_three {
+    font-size: 24px;
+    margin-left: 14%;
+    margin-top: 29px;
+    margin-bottom: -10px;
+  }
+
+  .heat_four {
+    font-size: 26px;
+    margin-left: 9%;
+  }
+
+  .background-text {
+    top: 96%;
+    left: -3%;
+    width: 100%;
+    height: 300px;
+    font-size: 89px;
+  }
+
+  .foreground-text {
+    color: transparent;
+    margin-top: 60%;
+    margin-left: -12%;
+  }
+
   .seconddiv {
     height: 1800px;
   }
@@ -1425,6 +1460,13 @@ button{
   }
 
   /* SECOND DIV RESPONSIVENESS ENDS HERE*/
+
+  /* THIRDDINE RESPONSIVENESS STARTS HERE */
+  .thirddiv_image {
+    height: 800px;
+    margin-top: 116px;
+  }
+  /* THIRDDIV RESPONSIVENESS ENDS HERE */
 
   /* FORTHDIV RESPOJNSIVENESS STARTS HERE */
   .forthdiv {
