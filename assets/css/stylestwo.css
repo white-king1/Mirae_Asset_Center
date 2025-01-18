@@ -549,9 +549,7 @@ button[data-index-change] {
   background-position: center;
 }
 .slider:hover {
-  
 }
-
 
 .nav-container {
   position: absolute;
@@ -855,7 +853,7 @@ button {
   left: 12%;
 }
 
-.stoneonepics{
+.stoneonepics {
   width: 800px;
   height: 400px;
 }
@@ -873,15 +871,34 @@ button {
   flex-direction: row;
 }
 
+.text-overlay_slidertext_ctwo_dnexti {
+  position: absolute;
+  top: 87%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
 .first_textforc_two_dnext {
   margin-left: 45%;
   font-size: 20px;
   margin-top: 10%;
-  color: #2C2C2C;
+  color: #2c2c2c;
   text-shadow: none;
 }
 
-.text-overlay_slidertext_ctwo_dnextb{
+.text-overlay_slidertext_ctwo_dnextb {
+  position: absolute;
+  top: 87%;
+  left: 15%;
+}
+
+.text-overlay_slidertext_ctwo_dnextbii {
   position: absolute;
   top: 87%;
   left: 15%;
@@ -901,15 +918,39 @@ button {
   text-shadow: none;
 }
 
-.core_value_only{
+.core_value_only {
   margin-left: 20%;
   font-size: 34px;
   margin-top: 25%;
-  color: #00427A;
+  color: #00427a;
   text-shadow: none;
 }
 
 .slider_dimensions_inner_two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 500px;
+  width: 1500px;
+  z-index: 9999;
+  position: relative;
+  padding-top: 14%;
+  margin-top: -1%;
+  margin-left: 20%;
+}
+
+.slider_dimensions_inner_three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 500px;
+  width: 1500px;
+  z-index: 9999;
+  position: relative;
+  padding-top: 14%;
+}
+
+.slider_dimensions_inner_twob {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1112,6 +1153,22 @@ button {
   color: #ffffff;
   margin-top: -1%;
   font-size: 10px;
+}
+.view-more-buttonc {
+  display: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 4%;
+  margin-left: 15%;
+  border-radius: 4px;
+  width: 120px;
+}
+.mrassestsepthree {
+  display: none;
 }
 
 /* FIFTHDIV ENDS HERE */
@@ -1461,11 +1518,110 @@ button {
 
   /* SECOND DIV RESPONSIVENESS ENDS HERE*/
 
-  /* THIRDDINE RESPONSIVENESS STARTS HERE */
+  /* THIRDDIV RESPONSIVENESS STARTS HERE */
   .thirddiv_image {
-    height: 800px;
-    margin-top: 116px;
+    height: 2500px;
+    margin-top: 118px;
   }
+
+  .overlay-text {
+    top: 8%;
+  }
+
+  .overlay-text_two {
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  .overlay-text_three {
+    top: 11%;
+    left: 28%;
+    font-size: 1rem;
+  }
+
+  .overlay-text_four {
+    display: none;
+  }
+
+  .overlay-text_five {
+    top: 15%;
+    left: 35%;
+    font-size: 1.8rem;
+  }
+
+  .overlay-text_six {
+    display: block;
+    top: 33%;
+    left: 49%;
+    color: #2c2c2c;
+    font-size: 1.1rem;
+  }
+
+  .overlay-text_seven {
+    top: 48%;
+    left: 10%;
+  }
+
+  #wrapper {
+    width: 300px;
+  }
+  #content {
+    grid-auto-flow: row;
+  }
+
+  .awards_line_white {
+    display: none;
+  }
+  #dots {
+    display: none;
+  }
+
+  .first_textforatwo_d {
+    margin-left: 27%;
+  }
+
+  .text-overlay_slidertext_btwo_dpics {
+    left: 5%;
+  }
+  .stoneonepics {
+    width: 300px;
+    height: 300px;
+  }
+
+  .text-overlay_slidertext_ctwo_dnext {
+    top: 86%;
+    left: 12%;
+    width: 500px;
+  }
+  .text-overlay_slidertext_ctwo_dnextb {
+    top: 89%;
+    left: 11%;
+  }
+
+  .slider_dimensions_inner_two {
+    margin-top: 25%;
+    margin-left: -2%;
+  }
+
+  .slider_dimensions_inner_three {
+    margin-top: 32%;
+    margin-left: -15%;
+  }
+
+  .text-overlay_slidertext_ctwo_dnexti {
+    top: 86%;
+    left: 7%;
+    width: 500px;
+}
+.text-overlay_slidertext_ctwo_dnextbii {
+  top: 89%;
+  left: 7%;
+}
   /* THIRDDIV RESPONSIVENESS ENDS HERE */
 
   /* FORTHDIV RESPOJNSIVENESS STARTS HERE */
@@ -1630,8 +1786,13 @@ button {
     width: 350px;
   }
   .mrassestsepthree {
+    display: block;
     font-size: 12px;
     width: 350px;
+  }
+
+  .view-more-buttonc {
+    display: block;
   }
   /* LASTDIV RESPONSIVENESS ENDS HERE */
 }
