@@ -786,7 +786,7 @@ button {
 .item {
   width: 350px;
   height: 287px;
-  background: green;
+  background: transparent;
 }
 
 #dots {
@@ -871,6 +871,19 @@ button {
   flex-direction: row;
 }
 
+.text-overlay_slidertext_ctwo_dnextlast {
+  position: absolute;
+  top: 87%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
 .text-overlay_slidertext_ctwo_dnexti {
   position: absolute;
   top: 87%;
@@ -893,6 +906,12 @@ button {
 }
 
 .text-overlay_slidertext_ctwo_dnextb {
+  position: absolute;
+  top: 87%;
+  left: 15%;
+}
+
+.text-overlay_slidertext_ctwo_dnextblast {
   position: absolute;
   top: 87%;
   left: 15%;
@@ -1531,17 +1550,18 @@ button {
   .overlay-text_two {
     position: absolute;
     top: 10%;
-    left: 32%;
+    left: 40%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: 900;
+    width: 350px;
   }
 
   .overlay-text_three {
     top: 11%;
-    left: 28%;
-    font-size: 1rem;
+    left: 35%;
+    font-size: 20px;
   }
 
   .overlay-text_four {
@@ -1551,7 +1571,8 @@ button {
   .overlay-text_five {
     top: 15%;
     left: 35%;
-    font-size: 1.8rem;
+    font-size: 28px;
+    font-weight: normal;
   }
 
   .overlay-text_six {
@@ -1562,13 +1583,18 @@ button {
     font-size: 1.1rem;
   }
 
+  .platimage_one{
+    width: 350px;
+  }
+
   .overlay-text_seven {
     top: 48%;
     left: 10%;
   }
 
   #wrapper {
-    width: 300px;
+    width: 350px;
+    margin-left: -6%;
   }
   #content {
     grid-auto-flow: row;
@@ -1589,7 +1615,7 @@ button {
     left: 5%;
   }
   .stoneonepics {
-    width: 300px;
+    width: 350px;
     height: 300px;
   }
 
@@ -1617,11 +1643,31 @@ button {
     top: 86%;
     left: 7%;
     width: 500px;
-}
-.text-overlay_slidertext_ctwo_dnextbii {
-  top: 89%;
-  left: 7%;
-}
+  }
+  .text-overlay_slidertext_ctwo_dnextbii {
+    top: 89%;
+    left: 7%;
+  }
+
+  .first_textforc_two_dnextbee {
+    width: 350px;
+  }
+
+  .slider_dimensions_inner_twob {
+    margin-top: 29%;
+    margin-left: -14%;
+  }
+
+  .text-overlay_slidertext_ctwo_dnextlast {
+    top: 83%;
+    left: 7%;
+  }
+
+  .text-overlay_slidertext_ctwo_dnextblast {
+    top: 90%;
+    left: 6%;
+    width: 300px;
+  }
   /* THIRDDIV RESPONSIVENESS ENDS HERE */
 
   /* FORTHDIV RESPOJNSIVENESS STARTS HERE */
