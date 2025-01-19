@@ -88,8 +88,6 @@ body {
 
 /* Header styling ends here */
 
-
-
 /* FIRSTDIV STARTS HERE */
 
 .text-overlay {
@@ -657,50 +655,50 @@ button {
 
 .image-container {
   position: relative;
-  display: inline-block; /* Optional: Adjust depending on your layout */
+  display: inline-block; 
 }
 
 .overlay-text {
   position: absolute;
-  top: 30%; /* Adjust vertical alignment */
-  left: 16%; /* Adjust horizontal alignment */
-  transform: translate(-50%, -50%); /* Center the text */
-  color: #00427a; /* Text color */
-  font-size: 1.5rem; /* Adjust font size */
-  font-weight: bold; /* Make the text bold */
+  top: 30%; 
+  left: 16%; 
+  transform: translate(-50%, -50%); 
+  color: #00427a; 
+  font-size: 1.5rem; 
+  font-weight: bold; 
   text-align: center;
 }
 
 .overlay-text_two {
   position: absolute;
-  top: 33%; /* Adjust vertical alignment */
-  left: 25%; /* Adjust horizontal alignment */
-  transform: translate(-50%, -50%); /* Center the text */
-  color: black; /* Text color */
-  font-size: 1.5rem; /* Adjust font size */
-  font-weight: bold; /* Make the text bold */
+  top: 33%; 
+  left: 25%; 
+  transform: translate(-50%, -50%); 
+  color: black; 
+  font-size: 1.5rem; 
+  font-weight: bold; 
   text-align: center;
 }
 
 .overlay-text_three {
   position: absolute;
-  top: 37%; /* Adjust vertical alignment */
-  left: 22%; /* Adjust horizontal alignment */
-  transform: translate(-50%, -50%); /* Center the text */
-  color: black; /* Text color */
-  font-size: 1.3rem; /* Adjust font size */
-  font-weight: bold; /* Make the text bold */
+  top: 37%; 
+  left: 22%; 
+  transform: translate(-50%, -50%); 
+  color: black; 
+  font-size: 1.3rem; 
+  font-weight: bold; 
   text-align: center;
 }
 
 .overlay-text_four {
   position: absolute;
-  top: 44%; /* Adjust vertical alignment */
-  left: 40%; /* Adjust horizontal alignment */
-  transform: translate(-50%, -50%); /* Center the text */
-  color: #2c2c2c; /* Text color */
-  font-size: 1.1rem; /* Adjust font size */
-  font-weight: bold; /* Make the text bold */
+  top: 44%; 
+  left: 40%; 
+  transform: translate(-50%, -50%); 
+  color: #2c2c2c; 
+  font-size: 1.1rem; 
+  font-weight: bold; 
   text-align: center;
 }
 .overlay-text_five {
@@ -991,58 +989,6 @@ button {
   left: 10%;
   /* border: 5px solid red; */
 }
-/* .forthdiv {
-  height: 800px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  margin-top: -2%;
-  width: 1550px;
-}
-
-
-.slideshow-container {
-  position: relative;
-  width: 100%;
-  max-width: 600px;
-  margin: auto;
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-}
-
-.mySlides1 {
-  padding: 40px;
-  text-align: center;
-  height: 300px; 
-  background-color: white;
-  border: 5px solid red;
-}
-
-#dots_can {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-}
-
-.dot {
-  width: 20px;
-  height: 10px;
-  background: white;
-  border-radius: 10%;
-  margin: 0 5px;
-  cursor: pointer;
-  opacity: 0.5;
-  transition: opacity 0.3s;
-}
-
-.dot_b.active {
-  opacity: 1;
-}
-.active {
-  background-color: gray;
-} */
 
 /* FORTHDIV ENDS HERE */
 
@@ -1195,8 +1141,37 @@ button {
 /* RESPONSIVNESS STARTS HERE */
 
 @media (max-width: 1366px) {
+  .slider-container {
+    margin-top: -6%;
+  }
+  .secondmain {
+    margin-top: 148px;
+  }
+
+  .thirddiv_image {
+    margin-top: 56px;
+  }
 }
 @media (max-width: 1280px) {
+  .slider-container {
+    margin-top: -14%;
+  }
+
+  .secondmain {
+    margin-top: 86px;
+  }
+
+  .thirddiv_image {
+    margin-top: -17px;
+  }
+
+  .overlay-text_seven {
+    left: 5%;
+  }
+
+  .view-more-buttonb {
+    margin-left: -10%;
+  }
 }
 @media (max-width: 800px) {
   /* NAVBAR RESPONSIVENESS STARTS HERE */
@@ -1583,7 +1558,7 @@ button {
     font-size: 1.1rem;
   }
 
-  .platimage_one{
+  .platimage_one {
     width: 350px;
   }
 
