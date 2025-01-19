@@ -14,8 +14,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Reset default browser styles */
-
 /* Header styling starts here */
 
 /* Style the navbar */
@@ -89,6 +87,8 @@ body {
 }
 
 /* Header styling ends here */
+
+
 
 /* FIRSTDIV STARTS HERE */
 

@@ -17,21 +17,6 @@ body {
 /* Header styling starts here */
 
 /* Style the navbar */
-/* nav {
-  border-top: none;
-  border-bottom: none;
-  background-color: #172f4a; 
-}
-nav ul {
-  list-style: none;
-  border: none;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-} */
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -103,6 +88,93 @@ nav ul li a {
 }
 
 /* Header styling ends here */
+
+/* SIDE SCROLL ICONS STYLING STARTS HERE  */
+.sidescroll_container {
+  position: fixed;
+  top: 50%;
+  right: 2%;
+  height: 250px;
+  width: 60px;
+  z-index: 1000;
+  /* display: none; */
+}
+
+.hedset_container {
+  background-color: #00427a;
+  height: 65px;
+  width: 60px;
+  border-radius: 8px;
+  padding-top: 5px;
+}
+
+.hedset_image {
+  display: block;
+  margin: 0 auto;
+}
+.headset_writeup {
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+}
+
+.book_container {
+  background-color: #ffffff;
+  height: 65px;
+  width: 60px;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.book_image {
+  display: block;
+  margin: 0 auto;
+}
+.book_writeup {
+  color: #00427a;
+  font-size: 10px;
+  text-align: center;
+}
+
+.calender_container {
+  background-color: #ffffff;
+  height: 65px;
+  width: 60px;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.calender_image {
+  display: block;
+  margin: 0 auto;
+}
+.calender_writeup {
+  color: #00427a;
+  font-size: 10px;
+  text-align: center;
+}
+
+.top_button_container {
+  background-color: #ffffff;
+  height: 65px;
+  width: 60px;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.top_button_image {
+  display: block;
+  margin: 0 auto;
+}
+.top_button_writeup {
+  color: #00427a;
+  font-size: 10px;
+  text-align: center;
+}
+/* SIDE SCROLL ICONS STYLING ENDS HERE  */
 
 /* FIRSTDIV STARTS HERE */
 .firstdiv_container {
@@ -430,8 +502,6 @@ main {
   position: relative;
   padding-top: 14%;
 }
-
-
 
 .slider-container {
   position: relative;
