@@ -348,12 +348,12 @@ body {
 
 /* Second section starts here */
 .seconddiv {
-  height: 900px;
+  height: 100vw;
   position: relative;
   display: flex;
   flex-direction: column;
   background-color: #242424;
-  /* margin-top: 30%; */
+  margin-top: 30%;
   width: 100%;
 }
 
