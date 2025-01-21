@@ -353,8 +353,8 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #242424;
-  margin-top: 30%;
-  width: 1550px;
+  /* margin-top: 30%; */
+  width: 100%;
 }
 
 .forthdiv {
@@ -364,7 +364,7 @@ body {
   flex-direction: column;
   background-color: #242424;
   margin-top: 4%;
-  width: 1550px;
+  width: 100%;
 }
 
 .eightdiv {
@@ -374,7 +374,7 @@ body {
   flex-direction: column;
   background-color: #242424;
   /* margin-top: 10%; */
-  width: 1550px;
+  width: 100%;
 }
 
 .secondcontainer {
@@ -649,7 +649,7 @@ button[data-index-change] {
   display: flex;
   flex-direction: column;
   background-color: #eceff1;
-  width: 1550px;
+  width: 100%;
 }
 .fifthdiv_textc {
   color: #979797;
@@ -813,7 +813,7 @@ button[data-index-change] {
   flex-direction: column;
   background-color: #242424;
   /* margin-top: 10%; */
-  width: 1550px;
+  width: 100%;
 }
 
 .sixth_div_header {
@@ -1082,6 +1082,9 @@ button[data-index-change] {
 @media (max-width: 1366px) {
 }
 @media (max-width: 1280px) {
+  .seconddiv {
+    margin-top: 30%;
+  }
 }
 @media (max-width: 800px) {
   /* NAVBAR RESPONSIVENESS STARTS HERE */
